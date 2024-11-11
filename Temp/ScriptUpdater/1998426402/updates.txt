@@ -1,5 +1,0 @@
-Temp/ScriptUpdater/1998426402/1618608831_WaterSimple.cs => Assets/Standard Assets/Water (Basic)/Sources/Scripts/WaterSimple.cs
-Temp/ScriptUpdater/1998426402/92196947_MouseLook.cs => Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs
-Temp/ScriptUpdater/1998426402/2048701803_ActivateTrigger.cs => Assets/Standard Assets/Scripts/General Scripts/ActivateTrigger.cs
-Temp/ScriptUpdater/1998426402/279185561_CombineChildren.cs => Assets/Standard Assets/Scripts/Utility Scripts/CombineChildren.cs
-Temp/ScriptUpdater/1998426402/200895473_MeshCombineUtility.cs => Assets/Standard Assets/Scripts/Utility Scripts/MeshCombineUtility.cs
