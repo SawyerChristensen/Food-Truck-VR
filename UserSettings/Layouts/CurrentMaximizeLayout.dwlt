@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 152
+  controlID: 57
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -368,9 +368,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -62.502136, y: 5.021162, z: -26.332874}
+    m_Target: {x: -27.18817, y: -116.974754, z: 35.922153}
     speed: 2
-    m_Value: {x: -62.502136, y: 5.021162, z: -26.332874}
+    m_Value: {x: -27.18817, y: -116.974754, z: 35.922153}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -416,20 +416,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.17265628, y: 0.1573462, z: -0.027977329, w: 0.97195023}
+    m_Target: {x: 0.45691597, y: 0.2422735, z: -0.13096152, w: 0.8458255}
     speed: 2
-    m_Value: {x: 0.17261085, y: 0.15880094, z: -0.028235747, w: 0.9716947}
+    m_Value: {x: 0.44691598, y: 0.24254563, z: -0.12737185, w: 0.85159504}
   m_Size:
-    m_Target: 0.30761418
+    m_Target: 86.40614
     speed: 2
-    m_Value: 0.3080763
+    m_Value: 86.40614
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1.0080887
-    m_SpeedNormalized: 0.5037963
+    m_Speed: 1.0100878
+    m_SpeedNormalized: 0.5047963
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -471,7 +471,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 153
+  controlID: 58
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -496,7 +496,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 154
+  controlID: 59
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -559,26 +559,26 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 30418}
-      m_SelectedIDs: a6abfcff
-      m_LastClickedID: -218202
-      m_ExpandedIDs: 721cfeffdaf7ffff964f00006a180200da270200
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 26a5feff
+      m_LastClickedID: -88794
+      m_ExpandedIDs: fca7feff40fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Main Camera
-        m_OriginalName: Main Camera
+        m_Name: Terrain
+        m_OriginalName: Terrain
         m_EditFieldRect:
           serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 19750
+          x: 78
+          y: 48
+          width: 165.5
+          height: 16
+        m_UserData: -88794
         m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_IsRenaming: 1
+        m_OriginalEventType: 7
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -783,7 +783,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -791,16 +791,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/qizhang/Documents/GitHub/Food-Truck-VR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8a650000
-    m_LastClickedID: 25994
-    m_ExpandedIDs: 000000008a6500008c6500008e65000090650000926500009465000096650000986500009a6500009c6500009e650000a0650000a2650000a4650000a6650000a86500000066000074660000766600008c66000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 514}
+    m_SelectedIDs: 0c480100
+    m_LastClickedID: 83980
+    m_ExpandedIDs: 00000000fa460100fc460100fe46010000470100024701000447010006470100084701000a4701000c4701000e4701001047010012470100144701001647010018470100a047010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -828,7 +828,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008a6500008c6500008e65000090650000926500009465000096650000986500009a6500009c6500009e650000a0650000a2650000a4650000a6650000a8650000
+    m_ExpandedIDs: 00000000fa460100fc460100fe46010000470100024701000447010006470100084701000a4701000c4701000e4701001047010012470100144701001647010018470100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -853,8 +853,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: a6abfcff
-    m_LastClickedInstanceID: -218202
+    m_SelectedInstanceIDs: 26a5feff
+    m_LastClickedInstanceID: -88794
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000f4180100a44b0000e86b020000000000
     m_RenameOverlay:
