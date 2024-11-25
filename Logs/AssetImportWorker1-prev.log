@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59831
+60195
 Successfully changed project path to: /Users/finn/Desktop/Inf-kn/7.Semester/VirAugReality/Food-Truck-VR
 /Users/finn/Desktop/Inf-kn/7.Semester/VirAugReality/Food-Truck-VR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,9 +56,9 @@ Successfully changed project path to: /Users/finn/Desktop/Inf-kn/7.Semester/VirA
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8782624256] Host "[IP] 192.168.178.46 [Port] 0 [Flags] 2 [Guid] 1274753340 [EditorId] 1274753340 [Version] 1048832 [Id] OSXEditor(0,kiwi.fritz.box) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8747603456] Host "[IP] 192.168.178.46 [Port] 0 [Flags] 2 [Guid] 4231129840 [EditorId] 4231129840 [Version] 1048832 [Id] OSXEditor(0,kiwi.fritz.box) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8782624256] Host "[IP] 192.168.178.46 [Port] 0 [Flags] 2 [Guid] 1274753340 [EditorId] 1274753340 [Version] 1048832 [Id] OSXEditor(0,kiwi.fritz.box) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8747603456] Host "[IP] 192.168.178.46 [Port] 0 [Flags] 2 [Guid] 4231129840 [EditorId] 4231129840 [Version] 1048832 [Id] OSXEditor(0,kiwi.fritz.box) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
@@ -76,44 +76,44 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001261 seconds.
-- Loaded All Assemblies, in  0.600 seconds
+Registered in 0.002234 seconds.
+- Loaded All Assemblies, in  0.663 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.011 seconds
-Domain Reload Profiling: 1613ms
-	BeginReloadAssembly (197ms)
+- Finished resetting the current domain, in  1.035 seconds
+Domain Reload Profiling: 1700ms
+	BeginReloadAssembly (231ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (53ms)
+	RebuildCommonClasses (56ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (144ms)
-	LoadAllAssembliesAndSetupDomain (191ms)
-		LoadAssemblies (194ms)
+	initialDomainReloadingComplete (159ms)
+	LoadAllAssembliesAndSetupDomain (202ms)
+		LoadAssemblies (229ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (188ms)
-			TypeCache.Refresh (184ms)
-				TypeCache.ScanAssembly (169ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (178ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (1012ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1037ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (863ms)
+		SetupLoadedEditorAssemblies (888ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
+			InitializePlatformSupportModulesInManaged (30ms)
 			SetLoadedEditorAssemblies (20ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (9ms)
-			ProcessInitializeOnLoadAttributes (605ms)
-			ProcessInitializeOnLoadMethodAttributes (200ms)
+			ProcessInitializeOnLoadAttributes (618ms)
+			ProcessInitializeOnLoadMethodAttributes (210ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,52 +121,52 @@ Domain Reload Profiling: 1613ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.512 seconds
+- Loaded All Assemblies, in  0.523 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.228 seconds
-Domain Reload Profiling: 1741ms
-	BeginReloadAssembly (338ms)
+- Finished resetting the current domain, in  1.200 seconds
+Domain Reload Profiling: 1724ms
+	BeginReloadAssembly (345ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (40ms)
+		DisableScriptedObjects (45ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (46ms)
 	RebuildCommonClasses (57ms)
 	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (39ms)
-		LoadAssemblies (158ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (45ms)
+		LoadAssemblies (165ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (33ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (12ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1229ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (11ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1201ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (813ms)
+		SetupLoadedEditorAssemblies (777ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (21ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (20ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (110ms)
-			ProcessInitializeOnLoadAttributes (561ms)
-			ProcessInitializeOnLoadMethodAttributes (98ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (529ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 458 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 8 unused Assets / (0.6 MB). Loaded Objects now: 971.
-Memory consumption went from 284.4 MB to 283.8 MB.
-Total: 2.364583 ms (FindLiveObjects: 0.053458 ms CreateObjectMapping: 0.012333 ms MarkObjects: 2.080209 ms  DeleteObjects: 0.218000 ms)
+Memory consumption went from 284.0 MB to 283.3 MB.
+Total: 2.722084 ms (FindLiveObjects: 0.055916 ms CreateObjectMapping: 0.013250 ms MarkObjects: 2.412542 ms  DeleteObjects: 0.239458 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
@@ -183,521 +183,505 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 66021.608986 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 01/Wood Texture 01 diffuse.tga
-  artifactKey: Guid(556156e47a9033342833685b5cc1cee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 01/Wood Texture 01 diffuse.tga using Guid(556156e47a9033342833685b5cc1cee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737872aa7d79a555d7d53daf4bd49de4') in 0.194679 seconds
+  Time since last request: 69437.567719 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Container_color03.mat
+  artifactKey: Guid(5e29c495f3970b64f9d09ce50f034ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Container_color03.mat using Guid(5e29c495f3970b64f9d09ce50f034ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8212a9054cfb5eacea56f6432869ab62') in 0.248471 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 7.193573 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 02/Wood Texture 02 diffuse.tga
-  artifactKey: Guid(39907092a44cd7d49b143a575a46742a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 02/Wood Texture 02 diffuse.tga using Guid(39907092a44cd7d49b143a575a46742a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e939e61f102c9b27c119a7eaa6090d8e') in 0.022662 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.113988 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 03/Wood Texture 03 diffuse.tga
-  artifactKey: Guid(efd5461bc415bc040b627feea62efd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 03/Wood Texture 03 diffuse.tga using Guid(efd5461bc415bc040b627feea62efd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16da36cb52d49f219706677cd1feb4a') in 0.013041 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 03/Wood Texture 03 normal.tga
-  artifactKey: Guid(81916294af2dfe646875bdfa4fea17dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 03/Wood Texture 03 normal.tga using Guid(81916294af2dfe646875bdfa4fea17dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d5890370682cfa3fbbf2aca64896ab') in 0.077053 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.491498 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 04/Wood Texture 04 diffuse.tga
-  artifactKey: Guid(59745c804ddf4364eb78f74f84c84700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 04/Wood Texture 04 diffuse.tga using Guid(59745c804ddf4364eb78f74f84c84700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec43253ab2f616176d9fdf8ec15d8b2d') in 0.012333 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 04/Wood Texture 04 normal.tga
-  artifactKey: Guid(953d4f6c4e384434a997ab66210c822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 04/Wood Texture 04 normal.tga using Guid(953d4f6c4e384434a997ab66210c822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822e8ed1a8228915a3b5c0df140fce9b') in 0.009149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.757815 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 06/Wood Texture 06 diffuse.tga
-  artifactKey: Guid(5a1cd0ec1d5613641b8370b91d585119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 06/Wood Texture 06 diffuse.tga using Guid(5a1cd0ec1d5613641b8370b91d585119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7014237fb1c5705d979413d29f74a47c') in 0.011608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 06/Wood Texture 06 normal.tga
-  artifactKey: Guid(1ed717576c1cf2d41aebacea538e0a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 06/Wood Texture 06 normal.tga using Guid(1ed717576c1cf2d41aebacea538e0a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0f87fbe29ad184bde4dca64399cbcc') in 0.010623 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.633163 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 05/Wood Texture 05 diffuse.tga
-  artifactKey: Guid(ccad2f0bd98f553449ca5fdd7924fbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 05/Wood Texture 05 diffuse.tga using Guid(ccad2f0bd98f553449ca5fdd7924fbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647028ef33e7c838c07923754c3c54bc') in 0.011742 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 05/Wood Texture 05 normal.tga
-  artifactKey: Guid(ccad681da3501284eb30bd9d0ea1b421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 05/Wood Texture 05 normal.tga using Guid(ccad681da3501284eb30bd9d0ea1b421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f480e3dcb00f2f228e11f571ccb1fad3') in 0.009072 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.623872 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 07/Wood Texture 07 diffuse.tga
-  artifactKey: Guid(4d8fc2cc8ab5fa248abee0da7b9ba875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 07/Wood Texture 07 diffuse.tga using Guid(4d8fc2cc8ab5fa248abee0da7b9ba875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0beb3e4e909c103d1d980d4f9f7e55') in 0.013332 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 07/Wood Texture 07 normal.tga
-  artifactKey: Guid(de1e0317bd1bd5640ad3cd2e14bc5a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 07/Wood Texture 07 normal.tga using Guid(de1e0317bd1bd5640ad3cd2e14bc5a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd014069afdf6d895fe3ae7aea3f2750') in 0.013804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 8.311278 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 08/Wood Texture 08 diffuse.tga
-  artifactKey: Guid(abece7833a6ba72439e4fa9deaa730d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 08/Wood Texture 08 diffuse.tga using Guid(abece7833a6ba72439e4fa9deaa730d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855a35477a50cefa8279c9b3011acd05') in 0.014302 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 08/Wood Texture 08 normal.tga
-  artifactKey: Guid(09eb39d878c1d8244a5a4f543a9112cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 08/Wood Texture 08 normal.tga using Guid(09eb39d878c1d8244a5a4f543a9112cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1351163782f39d92131166cc43e0d6c6') in 0.010088 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.765374 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 09/Wood Texture 09 diffuse.tga
-  artifactKey: Guid(d682e79345ad8eb46ad0faad594fd03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 09/Wood Texture 09 diffuse.tga using Guid(d682e79345ad8eb46ad0faad594fd03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7783ab7af613476dc751ca94ddd14ff') in 0.012221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 09/Wood Texture 09 normal.tga
-  artifactKey: Guid(ba20c94d07a7d944581b737e27dafa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 09/Wood Texture 09 normal.tga using Guid(ba20c94d07a7d944581b737e27dafa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba9b2d8856e03735fd0bd921e62ab93') in 0.009533 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.110677 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 10/Wood Texture 10 diffuse.tga
-  artifactKey: Guid(f941bd75f5ce65a4ca18b3296368b0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 10/Wood Texture 10 diffuse.tga using Guid(f941bd75f5ce65a4ca18b3296368b0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ff18b207fef1bc507814cadbe0b5f6') in 0.011897 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 10/Wood Texture 10 normal.tga
-  artifactKey: Guid(c2d07e1736af907429e37195314ef6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 10/Wood Texture 10 normal.tga using Guid(c2d07e1736af907429e37195314ef6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683a0c3a24aef2fa2be9a9505192d89e') in 0.009600 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.556580 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 11/Wood Texture 11 diffuse.tga
-  artifactKey: Guid(cd2a98bd0dc3f364d96a9206fdaa1ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 11/Wood Texture 11 diffuse.tga using Guid(cd2a98bd0dc3f364d96a9206fdaa1ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7ec32405d583dc524896359131317f') in 0.011851 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 11/Wood Texture 11 normal.tga
-  artifactKey: Guid(c35b9269897be2d41a3b65dfda2881b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 11/Wood Texture 11 normal.tga using Guid(c35b9269897be2d41a3b65dfda2881b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6bb1a1a7fbc81e76aed5217c5feef7') in 0.009797 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.524256 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 12/Wood Texture 12 diffuse.tga
-  artifactKey: Guid(3bd0228764f23364b9118a627a195621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 12/Wood Texture 12 diffuse.tga using Guid(3bd0228764f23364b9118a627a195621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5673743bb7de57d22f233160fef4756') in 0.012331 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 12/Wood Texture 12 normal.tga
-  artifactKey: Guid(c0688b9c82071394ba88f7a02a2f4049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 12/Wood Texture 12 normal.tga using Guid(c0688b9c82071394ba88f7a02a2f4049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab785e720caa0ee2b01f3135a8901f7') in 0.008660 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.097883 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 13/Wood Texture 13 diffuse.tga
-  artifactKey: Guid(2cd12808fbe89ff4f83dec5f3ea4abf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 13/Wood Texture 13 diffuse.tga using Guid(2cd12808fbe89ff4f83dec5f3ea4abf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a350a818f198f5322302c83b1847e4ca') in 0.012415 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 13/Wood Texture 13 normal.tga
-  artifactKey: Guid(771d8a58ca9c77b47a5729697f97a50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 13/Wood Texture 13 normal.tga using Guid(771d8a58ca9c77b47a5729697f97a50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e9a0be0868a61ea3824204e8bbd841') in 0.009753 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.713242 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 14/Wood Texture 14 diffuse.tga
-  artifactKey: Guid(2bf4b388233b3534bb15f8a3478bc46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 14/Wood Texture 14 diffuse.tga using Guid(2bf4b388233b3534bb15f8a3478bc46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1033b38da43be0faf347db5a281dbbd0') in 0.012560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 14/Wood Texture 14 normal.tga
-  artifactKey: Guid(7e0d5aa6aab8f444a99dc28f0a08956b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 14/Wood Texture 14 normal.tga using Guid(7e0d5aa6aab8f444a99dc28f0a08956b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d51b549417a4515dc9dcf6ec8c8551') in 0.009825 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.106631 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 15/Wood Texture 15 diffuse.tga
-  artifactKey: Guid(0384528ab5ea09b469ef1f5fc0b37744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 15/Wood Texture 15 diffuse.tga using Guid(0384528ab5ea09b469ef1f5fc0b37744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18fcc00d4f5f12e58b0f2e107ce2e93') in 0.012018 seconds
+  Time since last request: 0.000156 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Pick up Truck_color03.mat
+  artifactKey: Guid(f3d0a94161d16b9449517d5d8f357098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Pick up Truck_color03.mat using Guid(f3d0a94161d16b9449517d5d8f357098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcc2bf7b173ed5c37ce1b0f08a099fb') in 0.014500 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000163 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 15/Wood Texture 15 normal.tga
-  artifactKey: Guid(f9d084406c1055f49b3430a9cf909f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 15/Wood Texture 15 normal.tga using Guid(f9d084406c1055f49b3430a9cf909f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdab47c439104f5dc1227f23023ca928') in 0.009470 seconds
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Pick up Truck_color02.mat
+  artifactKey: Guid(94d51beb0fcd7044885fa789ac899eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Pick up Truck_color02.mat using Guid(94d51beb0fcd7044885fa789ac899eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999457f43bd9f50d816806675d9cd1aa') in 0.007340 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 826.353224 seconds.
-  path: Assets/Original Wood Textures/Wood Texture 15/Materials/Wood Texture 15 normal.mat
-  artifactKey: Guid(f053769813265403eada892ac780232f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Original Wood Textures/Wood Texture 15/Materials/Wood Texture 15 normal.mat using Guid(f053769813265403eada892ac780232f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2811abf7110085177b47ff8b046a0a') in 0.173372 seconds
+  Time since last request: 0.000571 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Truck_color01.mat
+  artifactKey: Guid(8d937782c962a9044a28c21514c73ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Truck_color01.mat using Guid(8d937782c962a9044a28c21514c73ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148fad0881c78e789e2f5559a68445dd') in 0.008133 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 687.348207 seconds.
-  path: Assets/PolygonShops/Materials/Building_Mats/PolygonShops_Mat_Base_Wood_01.mat
-  artifactKey: Guid(5c476b064a70c5c45b76305cc5c88875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Materials/Building_Mats/PolygonShops_Mat_Base_Wood_01.mat using Guid(5c476b064a70c5c45b76305cc5c88875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672cfa288eecb75e11b032de6f604645') in 0.027088 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 671.456168 seconds.
-  path: Assets/PolygonShops/Prefabs/Props/SM_Prop_Planter_Box_02_End.prefab
-  artifactKey: Guid(b560cc8bb47bbf143ba5281f90795fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Prefabs/Props/SM_Prop_Planter_Box_02_End.prefab using Guid(b560cc8bb47bbf143ba5281f90795fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55db7d213b774bb4dfe74a79d6a3782') in 0.054843 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/PolygonShops/Prefabs/Props/SM_Prop_Planter_Box_03.prefab
-  artifactKey: Guid(ea7215a2d056cb1499bddc1f18cd0483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Prefabs/Props/SM_Prop_Planter_Box_03.prefab using Guid(ea7215a2d056cb1499bddc1f18cd0483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d6ac68d4aab674c15bef3a171af90e') in 0.011174 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonShops/Prefabs/Props/SM_Prop_Planter_Box_02_Mid.prefab
-  artifactKey: Guid(81be889859b318242887b2ea0f6c0193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Prefabs/Props/SM_Prop_Planter_Box_02_Mid.prefab using Guid(81be889859b318242887b2ea0f6c0193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8906d0ad41acc0a7563cded7b965719') in 0.009266 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 139.764980 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Building_Wood_01.png
-  artifactKey: Guid(d3935dc2133960e4f80183d10b29eaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Wood_01.png using Guid(d3935dc2133960e4f80183d10b29eaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5669de71248edfd4bc4313a26649988f') in 0.007469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Ground_01_Normals.png
-  artifactKey: Guid(ebe0955d333488c47a06d7bcaaa79b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Ground_01_Normals.png using Guid(ebe0955d333488c47a06d7bcaaa79b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a3e145e2eceb8031c875218eca09ac') in 0.010386 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Texture_04_C.png
-  artifactKey: Guid(123cab6c38ef83348bbe3a47814d042c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Texture_04_C.png using Guid(123cab6c38ef83348bbe3a47814d042c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f9f91ce931d9521a908f55b64c5ae1') in 0.008552 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Treadmill_Track.png
-  artifactKey: Guid(83d1ee9aea4a32d408de76bcd3bfbe3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Treadmill_Track.png using Guid(83d1ee9aea4a32d408de76bcd3bfbe3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6aeaa25531a3da2d314b601bd383e3') in 0.007595 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Ground_Dirt_02.png
-  artifactKey: Guid(bb7bcf5a6753bdb4c90a978c10dbaa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Ground_Dirt_02.png using Guid(bb7bcf5a6753bdb4c90a978c10dbaa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99e93cdf99e7ab84bfde1192d1be522') in 0.008875 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Building_Wood_02.png
-  artifactKey: Guid(41b17f6c146c9d348b7bcf945c1b7972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Wood_02.png using Guid(41b17f6c146c9d348b7bcf945c1b7972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548007b69fd7174ac9720bfc2bab75f7') in 0.008118 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Texture_01_Colour_Emissive.png
-  artifactKey: Guid(14fb9dc2372d0504092ea990cb35cb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Texture_01_Colour_Emissive.png using Guid(14fb9dc2372d0504092ea990cb35cb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b206f096f5e301734dff6012b7b634b4') in 0.011391 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Ground_WhiteLines_01.png
-  artifactKey: Guid(5bab4ba55da60a14983ec8bcd208560e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Ground_WhiteLines_01.png using Guid(5bab4ba55da60a14983ec8bcd208560e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3171fa7c2d16223c77deaf84a25fc92d') in 0.008816 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Signs_01.png
-  artifactKey: Guid(f9018dafa9958244588486dd6b61928b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Signs_01.png using Guid(f9018dafa9958244588486dd6b61928b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57ae4bd4fe143d93d74fa858925b19f') in 0.010180 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Ground_YellowDiagonal_01.png
-  artifactKey: Guid(08fd88d85d06ccd43abc8a40c80ab2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Ground_YellowDiagonal_01.png using Guid(08fd88d85d06ccd43abc8a40c80ab2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334e1ee2b1868315dbe9c65fbb19911f') in 0.008404 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/PolygonShops/Textures/SimpleSky.png
-  artifactKey: Guid(7bab9ac1487e10c40b9ed77d4c551e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/SimpleSky.png using Guid(7bab9ac1487e10c40b9ed77d4c551e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8e829957d676963dc84f07d015efb6') in 0.006806 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Texture_02_C.png
-  artifactKey: Guid(7426ba104f6e6e345956560732d1a08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Texture_02_C.png using Guid(7426ba104f6e6e345956560732d1a08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d99016c287088bfd5aad79adad6798') in 0.009408 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Texture_02_A.png
-  artifactKey: Guid(d3222081cd7e05f40a0e54ee6e86df11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Texture_02_A.png using Guid(d3222081cd7e05f40a0e54ee6e86df11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a84c049829288b25b121cc5aa0cf8a') in 0.010837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/PolygonShops/Textures/PolygonStreetRacer_Building_Texture_03.png
-  artifactKey: Guid(7d953633f61c0cd41896830424188d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonStreetRacer_Building_Texture_03.png using Guid(7d953633f61c0cd41896830424188d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca241f0b58d98511d6ea686dfd0f4617') in 0.007042 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Mall_Map_01.png
-  artifactKey: Guid(b663f11e1b9bea447b8ab46478920263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Mall_Map_01.png using Guid(b663f11e1b9bea447b8ab46478920263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861685b934e6bf04eaecdc953bfaca7c') in 0.009030 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/PolygonShops/Textures/Wire_Alpha.tga
-  artifactKey: Guid(43054f6158d97fa4ab2e95c777363d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/Wire_Alpha.tga using Guid(43054f6158d97fa4ab2e95c777363d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0960bfe03dc80e4e554df7f2358c15dc') in 0.007216 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Texture_04_B.png
-  artifactKey: Guid(0ac1873785305ec4faef00de00e9fe41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Texture_04_B.png using Guid(0ac1873785305ec4faef00de00e9fe41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2627acca778310bee0e9600c4a4f3f') in 0.009130 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/PolygonShops/Textures/PolygonStreetRacer_Building_Texture_02.png
-  artifactKey: Guid(4c68ed3b515e1bf4a8f318b298f47824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonStreetRacer_Building_Texture_02.png using Guid(4c68ed3b515e1bf4a8f318b298f47824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbb706526c0214c22071627a531522d') in 0.009562 seconds
+  Time since last request: 0.000146 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_SUV_color02.mat
+  artifactKey: Guid(6635f2e276b1e904bb60b1e67d0853da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_SUV_color02.mat using Guid(6635f2e276b1e904bb60b1e67d0853da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17a0115018ff8a816f22fa9d479bea2') in 0.008861 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000148 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Texture_01_C.png
-  artifactKey: Guid(577a3dc5b60f2db4d991af3fda65e294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Texture_01_C.png using Guid(577a3dc5b60f2db4d991af3fda65e294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1bc60a1a8ede5cb054553c2116e6c8') in 0.008183 seconds
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Props_BillBoard_large.mat
+  artifactKey: Guid(f75e227920ccbc54a86b0f655ddc5b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Props_BillBoard_large.mat using Guid(f75e227920ccbc54a86b0f655ddc5b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a4d1e225ea45af586980a5dcc4457a') in 0.006516 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 3.095249 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Building_Cobblestone_01.png
-  artifactKey: Guid(94e4c621c7f73fb488c58d8f11185bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Cobblestone_01.png using Guid(94e4c621c7f73fb488c58d8f11185bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae5fd6ccf1c359fc2617936b5ade464') in 0.017075 seconds
+  Time since last request: 0.000098 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Container_color02.mat
+  artifactKey: Guid(28c4d6fc3a6598a49bd5947f62155562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Container_color02.mat using Guid(28c4d6fc3a6598a49bd5947f62155562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f26da0118be2e4543eaa5d6eee248d1') in 0.007152 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Building_Tile_04.png
-  artifactKey: Guid(e22c949910eb4384393fc9911075b764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Tile_04.png using Guid(e22c949910eb4384393fc9911075b764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3fe7e71538a752ae41f52185f26afeb') in 0.010995 seconds
+  Time since last request: 0.000208 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Props_BillBoard_small.mat
+  artifactKey: Guid(dcbee53a8041c594aaf20d616c6ed33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Props_BillBoard_small.mat using Guid(dcbee53a8041c594aaf20d616c6ed33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1f2e6442d63784e74d8d0208afc4b6') in 0.007429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Props_BillBoard_medium.mat
+  artifactKey: Guid(8a98f40ab24c33a4cb2d6dd96393db82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Props_BillBoard_medium.mat using Guid(8a98f40ab24c33a4cb2d6dd96393db82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361582dedc6af41bd3adef1ef0b3a760') in 0.006833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_SUV_color03.mat
+  artifactKey: Guid(66866c7f5319a2d4ab19d87f65b08692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_SUV_color03.mat using Guid(66866c7f5319a2d4ab19d87f65b08692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820e340e7f5664798cf876481cf04a58') in 0.007512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Natures.mat
+  artifactKey: Guid(39f651e340882304fa6f21b321d3bea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Natures.mat using Guid(39f651e340882304fa6f21b321d3bea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9070262fe1862f70f2c1943db101aefe') in 0.008139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Bus_color02.mat
+  artifactKey: Guid(1ff3955181d667949a055e4e15ec3e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Bus_color02.mat using Guid(1ff3955181d667949a055e4e15ec3e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694f65b5d034799809cc7eff0783a8a5') in 0.011189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Road.mat
+  artifactKey: Guid(faa0cd7e7e1757945a22cce35d7069cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Road.mat using Guid(faa0cd7e7e1757945a22cce35d7069cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b60f20b9c9cb76a5b761d432aad75f') in 0.006292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Road Concrete Tile.mat
+  artifactKey: Guid(791087fbdef01f44fb204ef3dc5e6db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Road Concrete Tile.mat using Guid(791087fbdef01f44fb204ef3dc5e6db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edf1d9348246fc1d8a458b8e5824cfc') in 0.006867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Container_color01.mat
+  artifactKey: Guid(992fb1e4bf06a5b488783670728d3f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Container_color01.mat using Guid(992fb1e4bf06a5b488783670728d3f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c227c14eff593b395ee70ece27e7c1') in 0.008143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Props_RoofProps.mat
+  artifactKey: Guid(9e031cf10ecdeb64486f21e9f55ffcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Props_RoofProps.mat using Guid(9e031cf10ecdeb64486f21e9f55ffcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4191cae9e8524f9a73fb78b2e75c462') in 0.006669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Bus_color01.mat
+  artifactKey: Guid(2851e6469fffc7640a0b1333a9b2519f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Bus_color01.mat using Guid(2851e6469fffc7640a0b1333a9b2519f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb67fac0ded278cdda25a2fdd0fd3658') in 0.007554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Taxi.mat
+  artifactKey: Guid(24c20333a6b79874298a79151051f9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Taxi.mat using Guid(24c20333a6b79874298a79151051f9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ae1affaf3b777f9db3fc56e684d68f') in 0.009055 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000212 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Building_Marble_01.png
-  artifactKey: Guid(f448e858f0f18814f96d0f1c9dfea79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Marble_01.png using Guid(f448e858f0f18814f96d0f1c9dfea79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8315abfbe0ca5546f697ff21b33f7f') in 0.011891 seconds
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Super Market.mat
+  artifactKey: Guid(50a5ebe9a8d86a04d8e3b59966418b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Super Market.mat using Guid(50a5ebe9a8d86a04d8e3b59966418b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c796d8c71190478b716a06ad34ca200e') in 0.010405 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Building_Concrete_Stripe_01.png
-  artifactKey: Guid(b8f09e7ff53390f438ce0088872fbf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Concrete_Stripe_01.png using Guid(b8f09e7ff53390f438ce0088872fbf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0800236ad0b00bac738aea87fd2e4c0') in 0.010484 seconds
+  Time since last request: 0.000176 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Truck_color02.mat
+  artifactKey: Guid(aa873d2eb05f7a249b6c4af961517216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Truck_color02.mat using Guid(aa873d2eb05f7a249b6c4af961517216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4339d39d87a50bc9389b6b489f5fe7fa') in 0.006538 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Building_Concrete_Blocks_01.png
-  artifactKey: Guid(cf52ede552ea43a449489b4bd25767ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Concrete_Blocks_01.png using Guid(cf52ede552ea43a449489b4bd25767ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736c38455474c212c0bfc2c0f8e179f5') in 0.011341 seconds
+  Time since last request: 0.000133 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Truck_color03.mat
+  artifactKey: Guid(7e719e1ad4449a2489e25a6f4d6e8019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Truck_color03.mat using Guid(7e719e1ad4449a2489e25a6f4d6e8019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f0c86a73e8aba4d05582624d63674d') in 0.006868 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/PolygonShops/Textures/PolygonShops_Building_Concrete_01.png
-  artifactKey: Guid(24892fcde2cee9e4f865bf80dcd4a42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Concrete_01.png using Guid(24892fcde2cee9e4f865bf80dcd4a42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a350ae840b3d366550d4ea86dc6d854') in 0.009387 seconds
+  Time since last request: 0.000225 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Car_color03.mat
+  artifactKey: Guid(37608e6988151a248951cdd1a93a59c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Car_color03.mat using Guid(37608e6988151a248951cdd1a93a59c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be2b56660b45ec861d030c0ef6ed2af') in 0.007237 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 431.741859 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Bush_01.prefab
-  artifactKey: Guid(31bbda51eeab02f44a8e92a7da2f5ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Bush_01.prefab using Guid(31bbda51eeab02f44a8e92a7da2f5ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b01c0b42dc392d2ce8ec211dda537d1') in 0.007806 seconds
+  Time since last request: 0.000149 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Props_Props_01.mat
+  artifactKey: Guid(1b96474fd045dce4a8b2ffba96618392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Props_Props_01.mat using Guid(1b96474fd045dce4a8b2ffba96618392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3bdba7a45818219019888a4329d2e43') in 0.006199 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Fir Tree.prefab
-  artifactKey: Guid(2509cc5763ca17f4598bf61fd585a93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Fir Tree.prefab using Guid(2509cc5763ca17f4598bf61fd585a93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02168b9557192fcef8478c9076616f6') in 0.006117 seconds
+  Time since last request: 0.000142 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_SUV_color01.mat
+  artifactKey: Guid(c0172b2eebb55f74bbb355a1b1fe0557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_SUV_color01.mat using Guid(c0172b2eebb55f74bbb355a1b1fe0557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65669b61770f0195183ee3435ef903dc') in 0.006569 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Grass Fence.prefab
-  artifactKey: Guid(b14aef9a05449784da6735de9ec90b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Grass Fence.prefab using Guid(b14aef9a05449784da6735de9ec90b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f1d0e93a904b5b6663595387adaa34') in 0.006764 seconds
+  Time since last request: 0.000295 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Props_TrafficProps.mat
+  artifactKey: Guid(0ea03c6aa98d5224cb797d69c8ef34ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Props_TrafficProps.mat using Guid(0ea03c6aa98d5224cb797d69c8ef34ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632082c76a3b22f90c89b9267fc00320') in 0.009006 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Pot Bush_big.prefab
-  artifactKey: Guid(0ee6d569ec3227e40888e8151b331e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Pot Bush_big.prefab using Guid(0ee6d569ec3227e40888e8151b331e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc82c89b2b703d70cf4e9eff11f6558') in 0.005692 seconds
+  Time since last request: 0.000190 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Pick up Truck_color01.mat
+  artifactKey: Guid(3ec7be87852e30f49a754a666cd49e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Pick up Truck_color01.mat using Guid(3ec7be87852e30f49a754a666cd49e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e20b21bc7321d109d9f89c17ee1a3d') in 0.011311 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Ambulance.mat
+  artifactKey: Guid(fded615538aced440887a3468715a826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Ambulance.mat using Guid(fded615538aced440887a3468715a826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a042071b7feef5bf53c5f7ee97a94dbf') in 0.009824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Bus_color03.mat
+  artifactKey: Guid(8659c6f38f710284c9a623201882790c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Bus_color03.mat using Guid(8659c6f38f710284c9a623201882790c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233f6f54b8a09155998f4ed43a5d2bd9') in 0.006333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Car_color02.mat
+  artifactKey: Guid(444598fdbae3357408ac7daa0fd9eabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Car_color02.mat using Guid(444598fdbae3357408ac7daa0fd9eabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa52c3cd7323e32b9a223cb9cecaf986') in 0.006918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Car_color01.mat
+  artifactKey: Guid(c55cd13c983151f488686d50353a716f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Car_color01.mat using Guid(c55cd13c983151f488686d50353a716f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c759df39f0a8b0e2f042924f9bb1834') in 0.006451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Police Car.mat
+  artifactKey: Guid(ca1eb6db662c95e47b63cb150cf463f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Police Car.mat using Guid(ca1eb6db662c95e47b63cb150cf463f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5331d7487c576643c6f3ea407e9922') in 0.008757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 27.470396 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_03_color03.mat
+  artifactKey: Guid(0ee6e621355b5ac4da1102c54fbb63d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_03_color03.mat using Guid(0ee6e621355b5ac4da1102c54fbb63d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5662d76cbd39a702e7dd7e9e7094efc2') in 0.011063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_04_color02.mat
+  artifactKey: Guid(5969c1f4dba612842ac19dbf345dd211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_04_color02.mat using Guid(5969c1f4dba612842ac19dbf345dd211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b087304cb3825baa74077663588d1a') in 0.009002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Stadium.mat
+  artifactKey: Guid(748bc3a1eddacab499ba4248377c18a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Stadium.mat using Guid(748bc3a1eddacab499ba4248377c18a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6282abf28615af687b378e2f6e5101b0') in 0.008561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Restaurant.mat
+  artifactKey: Guid(583621a2a9afaee4c93548c5ac08d4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Restaurant.mat using Guid(583621a2a9afaee4c93548c5ac08d4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71920f2667d6ba81fbf573e82bbc636') in 0.009803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Pizza.mat
+  artifactKey: Guid(98387a5e673a6ab4dbed345505f5ca07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Pizza.mat using Guid(98387a5e673a6ab4dbed345505f5ca07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adae1657f75d79f888e3ad2b087d5b82') in 0.007253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Residential_color02.mat
+  artifactKey: Guid(032dad8ae2ae60a4b9cb4d7267132a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Residential_color02.mat using Guid(032dad8ae2ae60a4b9cb4d7267132a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed18c2b1fdfc4f804383dd24e415670') in 0.007157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Music Store.mat
+  artifactKey: Guid(82af60631a0969d44b0bf6becad3dc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Music Store.mat using Guid(82af60631a0969d44b0bf6becad3dc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87d9e0e86eed84338333b552b67cfc8') in 0.007878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Residential_color01.mat
+  artifactKey: Guid(2016355b121a1d141a5a696a5e1a3204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Residential_color01.mat using Guid(2016355b121a1d141a5a696a5e1a3204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc86c361cfe80e09f2d86abbf7331d1') in 0.006532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000181 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Bush_02.prefab
-  artifactKey: Guid(f75f232634166cc459a69e7fd7a30880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Bush_02.prefab using Guid(f75f232634166cc459a69e7fd7a30880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477f46442d095d48f17d704766ff971d') in 0.005903 seconds
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Shoes Shop.mat
+  artifactKey: Guid(25119463e811d3c4c82a0d92a6e1c561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Shoes Shop.mat using Guid(25119463e811d3c4c82a0d92a6e1c561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b7987723c915ba5b17daef068dda87') in 0.008589 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Pot Bush_small.prefab
-  artifactKey: Guid(800befcc62026a34693972077c91698d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Pot Bush_small.prefab using Guid(800befcc62026a34693972077c91698d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c13d69d248028001c0beb0429d6b10') in 0.006276 seconds
+  Time since last request: 0.000132 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Residential_color03.mat
+  artifactKey: Guid(503a5bca82bfa754d93ab882c47b76d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Residential_color03.mat using Guid(503a5bca82bfa754d93ab882c47b76d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffe582e29a0888ef636c6f8134a3338') in 0.006476 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_House Floor.prefab
-  artifactKey: Guid(2d5fb229ae2945742b900a405a5e7a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_House Floor.prefab using Guid(2d5fb229ae2945742b900a405a5e7a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38603e69ce2e83a3ec243ca1f9917bf') in 0.006588 seconds
+  Time since last request: 0.000196 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Factory.mat
+  artifactKey: Guid(abc266de8c01de040bfa48da3f006d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Factory.mat using Guid(abc266de8c01de040bfa48da3f006d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c180133e532535e9287e0a9cd3ba823') in 0.010709 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Fruits  Shop.mat
+  artifactKey: Guid(ae4c28532c8b3154a80bef6e9ca5939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Fruits  Shop.mat using Guid(ae4c28532c8b3154a80bef6e9ca5939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7250a38f8817c9fbea00c30aeb5cd30') in 0.006326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_01_color01.mat
+  artifactKey: Guid(d0b99db790965dc40a437662f169eb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_01_color01.mat using Guid(d0b99db790965dc40a437662f169eb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6bda36990d27b554c90a294c67d663') in 0.006964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Gas Station.mat
+  artifactKey: Guid(5008df5fba3101c4c81e4cf6b008c663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Gas Station.mat using Guid(5008df5fba3101c4c81e4cf6b008c663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c950c4f01b040e067b1d88c70a356d6') in 0.006035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Gift Shop.mat
+  artifactKey: Guid(bf630e064503ad541ab39df076952029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Gift Shop.mat using Guid(bf630e064503ad541ab39df076952029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2da193312e860e339a77156c3caefa') in 0.006121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_03_color01.mat
+  artifactKey: Guid(ca3609b9bffbfb14ab8e97e2329ad3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_03_color01.mat using Guid(ca3609b9bffbfb14ab8e97e2329ad3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b60ee100d8b2f69bafa8be9feb1c7b2') in 0.006731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_01_color02.mat
+  artifactKey: Guid(1b289b633b2f4624584f749cf4e5e7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_01_color02.mat using Guid(1b289b633b2f4624584f749cf4e5e7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a5f2319a5d21b24d93d0a876b1da91') in 0.006843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_01_color03.mat
+  artifactKey: Guid(b6d73c7816cc2914d8f49ccc54d19714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_01_color03.mat using Guid(b6d73c7816cc2914d8f49ccc54d19714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b3423aee322f297c334c21e25356c5') in 0.006708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_02_color03.mat
+  artifactKey: Guid(c622c6f6cb906dd47b5fd1368346e0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_02_color03.mat using Guid(c622c6f6cb906dd47b5fd1368346e0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca9099622777b79f9a4295fcfc7d3bd') in 0.008201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_04_color01.mat
+  artifactKey: Guid(b5a19d15b0a91e74eacfaf96d03ca2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_04_color01.mat using Guid(b5a19d15b0a91e74eacfaf96d03ca2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1773d12b7850c2d2fdbe5586ee10f351') in 0.006812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_04_color03.mat
+  artifactKey: Guid(ecb113d6169c1ea49ae708ac05a9128c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_04_color03.mat using Guid(ecb113d6169c1ea49ae708ac05a9128c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f14ffb3bc973f0db5c2c9743bac4f52') in 0.008697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Drug Store.mat
+  artifactKey: Guid(f9332e9be9cda3a4e8544e41a0366b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Drug Store.mat using Guid(f9332e9be9cda3a4e8544e41a0366b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd7f0cea855c8b9f259ade508651f7e') in 0.010192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_02_color02.mat
+  artifactKey: Guid(b66f907b85259674ca69f1732a632bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_02_color02.mat using Guid(b66f907b85259674ca69f1732a632bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274c5a5ca6d9d25a0a4e17f0744a96ff') in 0.011179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_02_color01.mat
+  artifactKey: Guid(374ab596cd3f81b429cc260ead5cad1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_02_color01.mat using Guid(374ab596cd3f81b429cc260ead5cad1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73378e88720bd31cf1fb9098ab768e53') in 0.006489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Fast Food.mat
+  artifactKey: Guid(0c04fafcb420315419fdbbeb0fb78464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Fast Food.mat using Guid(0c04fafcb420315419fdbbeb0fb78464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa09991e7cd36a3edfcd71a7ad7a175') in 0.006953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.822306 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building Sky_big_color02.mat
+  artifactKey: Guid(ba66acee62948c24baacd1186810d424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building Sky_big_color02.mat using Guid(ba66acee62948c24baacd1186810d424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eede00676ecbfd9ec0e1189a4594901d') in 0.010449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Coffee Shop.mat
+  artifactKey: Guid(4967bea7482277d48955ef26a2a50c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Coffee Shop.mat using Guid(4967bea7482277d48955ef26a2a50c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6bec8f16a3ac95ef797a7ca23571f9a') in 0.008352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Bar.mat
+  artifactKey: Guid(1a8b38fa8ecb06d4b8eadffe456fd574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Bar.mat using Guid(1a8b38fa8ecb06d4b8eadffe456fd574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b9c026bcb3bf8fb19ae6e655d1ba2c') in 0.009233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building Sky_big_color03.mat
+  artifactKey: Guid(a1a61be9dd7e91b4faec2c4eb7ca4e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building Sky_big_color03.mat using Guid(a1a61be9dd7e91b4faec2c4eb7ca4e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4421dc1754fa23064841c80620d90200') in 0.010045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building Sky_small_color03.mat
+  artifactKey: Guid(8f1cbf7d8b46f0c44ab5e32bfc3041a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building Sky_small_color03.mat using Guid(8f1cbf7d8b46f0c44ab5e32bfc3041a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7539f2b17bd539d8f753d0852a1eadda') in 0.007238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building Sky_small_color01.mat
+  artifactKey: Guid(cf528230e5d0dcd42ab2d20dcda96917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building Sky_small_color01.mat using Guid(cf528230e5d0dcd42ab2d20dcda96917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9103157b31386ee44e3c6566569de0') in 0.008302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Books Shop.mat
+  artifactKey: Guid(d2be81fdd0927fa40a4ac00be93d9bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Books Shop.mat using Guid(d2be81fdd0927fa40a4ac00be93d9bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b0dbd879a56206a8ca95ba542a40dd') in 0.007203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
