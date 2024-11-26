@@ -7303,3 +7303,487 @@ Received Import Request.
 Start importing Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Cucumber.fbx using Guid(239b2aa3a6024a48a29fc51d968f29db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9646e39fc9ca1de159bdf5a613102abc') in 0.026575 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1280.246557 seconds.
+  path: Assets/City park/Trees/Copies/Tree 5_Textures/shadow.png
+  artifactKey: Guid(220c9cc96e1a4486b8de9be5a9102851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Copies/Tree 5_Textures/shadow.png using Guid(220c9cc96e1a4486b8de9be5a9102851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c650fb8445a748e15ee75bae843504') in 0.369426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.963 seconds
+Refreshing native plugins compatible for Editor in 6.60 ms, found 6 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.138 seconds
+Domain Reload Profiling: 4108ms
+	BeginReloadAssembly (699ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (64ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (122ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (101ms)
+	LoadAllAssembliesAndSetupDomain (99ms)
+		LoadAssemblies (480ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (3140ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2304ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (25ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (165ms)
+			ProcessInitializeOnLoadAttributes (1872ms)
+			ProcessInitializeOnLoadMethodAttributes (205ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 4.54 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1801 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (0.6 MB). Loaded Objects now: 2405.
+Memory consumption went from 251.3 MB to 250.7 MB.
+Total: 4.303583 ms (FindLiveObjects: 0.183792 ms CreateObjectMapping: 0.051167 ms MarkObjects: 3.659458 ms  DeleteObjects: 0.404875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 475.100445 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Big Tree.prefab
+  artifactKey: Guid(b82e76f4092b7d24aaeecddf36fe8d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Big Tree.prefab using Guid(b82e76f4092b7d24aaeecddf36fe8d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1d89b6b16c1ab5159511d7cc26e97c') in 0.513509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/PolygonShops/Models/Convex/SM_Env_Tree_02_Convex 1.asset
+  artifactKey: Guid(fdf410b79da5c4249abca6923113ddf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/Convex/SM_Env_Tree_02_Convex 1.asset using Guid(fdf410b79da5c4249abca6923113ddf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca27e2c23413528e569cf7e696d78e4') in 0.231086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/PolygonShops/Prefabs/Environments/SM_Env_Tree_03.prefab
+  artifactKey: Guid(c9a7de35f507e19458b643a7db15aaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Prefabs/Environments/SM_Env_Tree_03.prefab using Guid(c9a7de35f507e19458b643a7db15aaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ccfbb447431880b2940c457d1bbac6') in 0.103741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/PolygonShops/Models/Convex/SM_Env_Tree_03_Convex.asset
+  artifactKey: Guid(e57db0473d6a85c4d97d84e9a919348c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/Convex/SM_Env_Tree_03_Convex.asset using Guid(e57db0473d6a85c4d97d84e9a919348c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63f3ef2429d3d05b226cd02dbd16992') in 0.019571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/PolygonShops/Models/Convex/SM_Env_Tree_03_Convex 2.asset
+  artifactKey: Guid(d401a27343dba9246ba8074d71d8a7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/Convex/SM_Env_Tree_03_Convex 2.asset using Guid(d401a27343dba9246ba8074d71d8a7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c79fd696ea2db877032ab8bba4a04e7') in 0.040517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Natures_Fir Tree.fbx
+  artifactKey: Guid(a4051385261ccbb45a4060203fd8d66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Natures_Fir Tree.fbx using Guid(a4051385261ccbb45a4060203fd8d66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdc22ebc4f7daf7c37a21d0acb73e08') in 0.019095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/PolygonShops/Models/Convex/SM_Env_Tree_01_Convex 1.asset
+  artifactKey: Guid(2a00458c97fbd054dac4d35735259bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/Convex/SM_Env_Tree_01_Convex 1.asset using Guid(2a00458c97fbd054dac4d35735259bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e6e73fe0ce91eb95679cb44371cbf4') in 0.020326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/PolygonShops/Textures/PolygonStreetRacer_Ground_01.png
+  artifactKey: Guid(34cb272d93a264448a81125aa33fa258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonStreetRacer_Ground_01.png using Guid(34cb272d93a264448a81125aa33fa258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8282c551e24007c655c7ae9698f2edf5') in 0.044277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/PolygonShops/Models/Convex/SM_Env_Tree_01_Convex.asset
+  artifactKey: Guid(88f31b358a449574d9360285ed12a8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/Convex/SM_Env_Tree_01_Convex.asset using Guid(88f31b358a449574d9360285ed12a8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739e52431e6a9f7e16167d04c8e8373b') in 0.008320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/PolygonShops/Models/SM_Env_Tree_03.fbx
+  artifactKey: Guid(941f945f7653dc14999fe476ef2eb373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/SM_Env_Tree_03.fbx using Guid(941f945f7653dc14999fe476ef2eb373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a78213165ab66cf2e3f43717f6c324d') in 0.013200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Cube Tree.prefab
+  artifactKey: Guid(8b680e0f7699a254c84ed6737b7eb53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Cube Tree.prefab using Guid(8b680e0f7699a254c84ed6737b7eb53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c474584514a5cd305eb19857d2f62d3') in 0.009373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PolygonShops/Textures/PolygonStreetRacer_Building_Texture_03.png
+  artifactKey: Guid(7d953633f61c0cd41896830424188d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonStreetRacer_Building_Texture_03.png using Guid(7d953633f61c0cd41896830424188d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca241f0b58d98511d6ea686dfd0f4617') in 0.017870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/PolygonShops/Models/Convex/SM_Env_Tree_04_Convex 4.asset
+  artifactKey: Guid(3cdfffc3b6e7e3443bb2a59cbeb733a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/Convex/SM_Env_Tree_04_Convex 4.asset using Guid(3cdfffc3b6e7e3443bb2a59cbeb733a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d614ff43969c190379b3f27dfed6a5') in 0.018868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/PolygonShops/Models/Convex/SM_Env_Tree_04_Convex.asset
+  artifactKey: Guid(7688a6d9b23d5cb44981f8373a37ca8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/Convex/SM_Env_Tree_04_Convex.asset using Guid(7688a6d9b23d5cb44981f8373a37ca8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bba72d48332c3887412bafc7878a7ea') in 0.012630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/PolygonShops/Textures/PolygonStreetRacer_Building_Texture_02.png
+  artifactKey: Guid(4c68ed3b515e1bf4a8f318b298f47824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonStreetRacer_Building_Texture_02.png using Guid(4c68ed3b515e1bf4a8f318b298f47824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbb706526c0214c22071627a531522d') in 0.006852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/PolygonShops/Models/SM_Env_Tree_02.fbx
+  artifactKey: Guid(845b76d7e61dda64b810c9185868387d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/SM_Env_Tree_02.fbx using Guid(845b76d7e61dda64b810c9185868387d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3a87c1a297abec9596b125b289ce3e') in 0.013197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/PolygonShops/Prefabs/Environments/SM_Env_Tree_02.prefab
+  artifactKey: Guid(bcfd19f8f27abfb469ff3ac2d866ca0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Prefabs/Environments/SM_Env_Tree_02.prefab using Guid(bcfd19f8f27abfb469ff3ac2d866ca0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d28876418241f498ec67390bd54acc5') in 0.018728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/PolygonShops/Models/Convex/SM_Generic_Tree_02_Convex.asset
+  artifactKey: Guid(dd7ef92569a82324e92f2982c0ac0837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/Convex/SM_Generic_Tree_02_Convex.asset using Guid(dd7ef92569a82324e92f2982c0ac0837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1522ac48319487be2a7c63589ca06fd') in 0.008143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/PolygonShops/Models/Convex/SM_Generic_Tree_03_Convex.asset
+  artifactKey: Guid(1584fe2b57facae40aff39b8d3ba650a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/Convex/SM_Generic_Tree_03_Convex.asset using Guid(1584fe2b57facae40aff39b8d3ba650a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c085b1d34f78da758be628283979e883') in 0.006263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/PolygonShops/Prefabs/Generic/SM_Generic_TreeDead_01.prefab
+  artifactKey: Guid(4e601a3714512bd47ae94345cad30477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Prefabs/Generic/SM_Generic_TreeDead_01.prefab using Guid(4e601a3714512bd47ae94345cad30477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306a2402a6e383c5419931d6cddd363f') in 0.011820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/PolygonShops/Models/Convex/SM_Generic_Tree_01_Convex.asset
+  artifactKey: Guid(feea39f4726e4b24e96457d30581aa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/Convex/SM_Generic_Tree_01_Convex.asset using Guid(feea39f4726e4b24e96457d30581aa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3c2da7de7810287e9cdc618aca1375') in 0.006811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/PolygonShops/Prefabs/Generic/SM_Generic_TreeStump_01.prefab
+  artifactKey: Guid(0ff3f856a9cae714788d5afd71abfa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Prefabs/Generic/SM_Generic_TreeStump_01.prefab using Guid(0ff3f856a9cae714788d5afd71abfa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0ec8f0f36533c2fdfe809bf76e8bad') in 0.011197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/PolygonShops/Prefabs/Props/SM_Prop_Streetlight_01.prefab
+  artifactKey: Guid(cb15f1c3d5613c74a9365a659e687d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Prefabs/Props/SM_Prop_Streetlight_01.prefab using Guid(cb15f1c3d5613c74a9365a659e687d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe53df624dba8f7ebb59db1cc871370') in 0.017865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000890 seconds.
+  path: Assets/PolygonShops/Prefabs/Props/SM_Prop_Streetlight_Double_01.prefab
+  artifactKey: Guid(f428240765559634db9a28bbfeafc608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Prefabs/Props/SM_Prop_Streetlight_Double_01.prefab using Guid(f428240765559634db9a28bbfeafc608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee6920417cecc48fd8387f599580413') in 0.017871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/PolygonShops/Prefabs/Props/SM_Prop_Xmas_Tree_02.prefab
+  artifactKey: Guid(32240c7b1a8c8a24bbe43387c8659f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Prefabs/Props/SM_Prop_Xmas_Tree_02.prefab using Guid(32240c7b1a8c8a24bbe43387c8659f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b4d8e729ab1ae03850f3247812ad39') in 0.016817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/PolygonShops/Models/Convex/SM_Prop_Streetlight_Double_01_Convex 1.asset
+  artifactKey: Guid(587963f846b34914fb64123ce35c3f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/Convex/SM_Prop_Streetlight_Double_01_Convex 1.asset using Guid(587963f846b34914fb64123ce35c3f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f185745dd47ef2f05c3050155213bab8') in 0.016321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/PolygonShops/Models/Convex/SM_Prop_Streetlight_Double_01_Convex.asset
+  artifactKey: Guid(dac6be1d3ebdd2149812fe6708aa2519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/Convex/SM_Prop_Streetlight_Double_01_Convex.asset using Guid(dac6be1d3ebdd2149812fe6708aa2519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7526a2ce309beafb63a58b5e965cd82a') in 0.006647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PolygonShops/Models/SM_Generic_TreeDead_01.fbx
+  artifactKey: Guid(a658a1cadbde83b4bab246b3d13979e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/SM_Generic_TreeDead_01.fbx using Guid(a658a1cadbde83b4bab246b3d13979e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a98073fa6871d2edaf21198223ad66d') in 0.017738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/PolygonShops/Models/Convex/SM_Generic_Tree_04_Convex.asset
+  artifactKey: Guid(fb89ca9825aaf3742b3bac00b9422e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/Convex/SM_Generic_Tree_04_Convex.asset using Guid(fb89ca9825aaf3742b3bac00b9422e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731659c0efeb2a45a119707d7258676e') in 0.006662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/PolygonShops/Models/Convex/SM_Generic_TreeStump_01_Convex.asset
+  artifactKey: Guid(cc85595e16e0003438c9cc62f6afe6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/Convex/SM_Generic_TreeStump_01_Convex.asset using Guid(cc85595e16e0003438c9cc62f6afe6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09761a57f2d796c682922e8a60dfab04') in 0.006139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/PolygonShops/Models/Convex/SM_Prop_Xmas_Tree_01_Convex.asset
+  artifactKey: Guid(5c59a605a7f538146bd5a3d8dfa79d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/Convex/SM_Prop_Xmas_Tree_01_Convex.asset using Guid(5c59a605a7f538146bd5a3d8dfa79d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4018640f940bd9ceca879e0d3b9a5254') in 0.007575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/PolygonShops/Models/SM_Generic_Tree_02.fbx
+  artifactKey: Guid(eb206daa9e3565a44ac5f4383b138931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/SM_Generic_Tree_02.fbx using Guid(eb206daa9e3565a44ac5f4383b138931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2594ffb6a8720e0878d31e42345b9813') in 0.012648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/PolygonShops/Models/SM_Prop_Streetlight_01.fbx
+  artifactKey: Guid(00dc7c691565ed64cb093a793a1ec11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/SM_Prop_Streetlight_01.fbx using Guid(00dc7c691565ed64cb093a793a1ec11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b650bab1b33eb1d3ef2b2d837825b55') in 0.015663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/PolygonShops/Models/Convex/SM_Prop_Streetlight_02_Convex 1.asset
+  artifactKey: Guid(0521c7eaaccac3b45bf3c757fa2ddf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/Convex/SM_Prop_Streetlight_02_Convex 1.asset using Guid(0521c7eaaccac3b45bf3c757fa2ddf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e77fb8bf3b97af9bc0580b29a502d0') in 0.017031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/PolygonShops/Models/SM_Generic_Tree_03.fbx
+  artifactKey: Guid(270bf93dd7611424ea0a92ed507f6a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Models/SM_Generic_Tree_03.fbx using Guid(270bf93dd7611424ea0a92ed507f6a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d3782bf2febe8e11718f7b784622d4') in 0.023787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/City park/Trees/Copies/Tree 5.prefab
+  artifactKey: Guid(6e38b72e20812ec4c8120ca7fba1cc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Copies/Tree 5.prefab using Guid(6e38b72e20812ec4c8120ca7fba1cc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e8a7611521ccc3dfded1da6452cff2') in 0.471087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 33.554674 seconds.
+  path: Assets/City park/Trees/Tree 4_Textures/normal_specular.png
+  artifactKey: Guid(0aa69e26f4da386439dfa448c777718d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Tree 4_Textures/normal_specular.png using Guid(0aa69e26f4da386439dfa448c777718d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5dab14daadbeb3f2c6af96a7105c7a') in 0.046056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/City park/Trees/Tree 4_Textures/shadow.png
+  artifactKey: Guid(e07750b21892e9049a875ec06a848f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Tree 4_Textures/shadow.png using Guid(e07750b21892e9049a875ec06a848f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380bbc8e82a9ff47ff3991bc6b440311') in 0.006944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.325559 seconds.
+  path: Assets/City park/Trees/Tree 5_Textures/normal_specular.png
+  artifactKey: Guid(a421bae0367118a4b9036d8eb7691afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Tree 5_Textures/normal_specular.png using Guid(a421bae0367118a4b9036d8eb7691afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd055a7dc0c9eddc32b73c557aba68e4f') in 0.005037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/City park/Trees/Tree 5_Textures/translucency_gloss.png
+  artifactKey: Guid(cdf8c1ad6b3b0da4b9e0e4ed9dbd815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Tree 5_Textures/translucency_gloss.png using Guid(cdf8c1ad6b3b0da4b9e0e4ed9dbd815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8ba97bacbac2b9fb5a48f30719961b') in 0.004935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 57.942412 seconds.
+  path: Assets/City park/Trees/Tree 5_Textures/Materials/shadow.mat
+  artifactKey: Guid(dd8abe403f05a404c85bc6681364f240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Tree 5_Textures/Materials/shadow.mat using Guid(dd8abe403f05a404c85bc6681364f240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10ae798ac70d23b137a014d2e4958da') in 0.044358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 98.912750 seconds.
+  path: Assets/City park/Trees/Materials/TreeBark_basecolor 1.mat
+  artifactKey: Guid(b77e3ee4452c64b4283902ac597ea470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Materials/TreeBark_basecolor 1.mat using Guid(b77e3ee4452c64b4283902ac597ea470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783c67eb059e05e7e59e50281b1e3718') in 0.049141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 25.388382 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Concrete_Stripe_01.png
+  artifactKey: Guid(b8f09e7ff53390f438ce0088872fbf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Concrete_Stripe_01.png using Guid(b8f09e7ff53390f438ce0088872fbf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0800236ad0b00bac738aea87fd2e4c0') in 0.020314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Tile_04.png
+  artifactKey: Guid(e22c949910eb4384393fc9911075b764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Tile_04.png using Guid(e22c949910eb4384393fc9911075b764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3fe7e71538a752ae41f52185f26afeb') in 0.016847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Tile_01.png
+  artifactKey: Guid(8e61567bfb0333d44b8cef4c000646b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Tile_01.png using Guid(8e61567bfb0333d44b8cef4c000646b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6fa1c088f35decb276cbada140648f') in 0.013720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Marble_01.png
+  artifactKey: Guid(f448e858f0f18814f96d0f1c9dfea79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Marble_01.png using Guid(f448e858f0f18814f96d0f1c9dfea79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8315abfbe0ca5546f697ff21b33f7f') in 0.012147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Tile_02.png
+  artifactKey: Guid(cd0aa9aaa6d32814982ea22a34a06f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Tile_02.png using Guid(cd0aa9aaa6d32814982ea22a34a06f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdf5552e9dbd85f92ef730bba4ddfd0') in 0.009773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Mat_01.png
+  artifactKey: Guid(4ffadc19c8339c84e9cb92bf89b34996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Mat_01.png using Guid(4ffadc19c8339c84e9cb92bf89b34996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793b63f251b665b10ebbeb3568877d2f') in 0.009688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.971797 seconds.
+  path: Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Label.png
+  artifactKey: Guid(55053f7bccbd7a64bb1402c72f7c0d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Label.png using Guid(55053f7bccbd7a64bb1402c72f7c0d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca8b750c52b889fd580635fe5f95e7f') in 0.123481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.203797 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_Chicken Shop.png
+  artifactKey: Guid(b648d0554709c6c4e9269e311432c5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_Chicken Shop.png using Guid(b648d0554709c6c4e9269e311432c5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0f0bdfc070435513d90fd5cd68b22f') in 0.009009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/DropdownArrow.png
+  artifactKey: Guid(4a97e406bd463dd41a8430dc3c47300c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/DropdownArrow.png using Guid(4a97e406bd463dd41a8430dc3c47300c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781275ec2176d3cd810f43c375cf5817') in 0.012504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
