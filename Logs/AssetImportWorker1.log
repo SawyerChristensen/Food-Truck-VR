@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51014
+59512
 Successfully changed project path to: /Users/qizhang/Documents/GitHub/Food-Truck-VR
 /Users/qizhang/Documents/GitHub/Food-Truck-VR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/qizhang/Documents/GitHub/Food-Truck
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8749330944] Host "[IP] 10.10.1.96 [Port] 0 [Flags] 2 [Guid] 1544158329 [EditorId] 1544158329 [Version] 1048832 [Id] OSXEditor(0,Laptop.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8713261568] Host "[IP] 10.10.1.96 [Port] 0 [Flags] 2 [Guid] 1291745741 [EditorId] 1291745741 [Version] 1048832 [Id] OSXEditor(0,Laptop.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8749330944] Host "[IP] 10.10.1.96 [Port] 0 [Flags] 2 [Guid] 1544158329 [EditorId] 1544158329 [Version] 1048832 [Id] OSXEditor(0,Laptop.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8713261568] Host "[IP] 10.10.1.96 [Port] 0 [Flags] 2 [Guid] 1291745741 [EditorId] 1291745741 [Version] 1048832 [Id] OSXEditor(0,Laptop.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
-Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.23f1 (dbb3f7c5b5c6)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,44 +76,44 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56043
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56971
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001145 seconds.
-- Loaded All Assemblies, in  0.694 seconds
+Registered in 0.002532 seconds.
+- Loaded All Assemblies, in  0.650 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.315 seconds
-Domain Reload Profiling: 2011ms
-	BeginReloadAssembly (276ms)
+- Finished resetting the current domain, in  1.172 seconds
+Domain Reload Profiling: 1824ms
+	BeginReloadAssembly (256ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (184ms)
-	LoadAllAssembliesAndSetupDomain (175ms)
-		LoadAssemblies (272ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (164ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (254ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (171ms)
-			TypeCache.Refresh (168ms)
-				TypeCache.ScanAssembly (151ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (147ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (1317ms)
+	FinalizeReload (1173ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1148ms)
+		SetupLoadedEditorAssemblies (1026ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (25ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (23ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (9ms)
-			ProcessInitializeOnLoadAttributes (819ms)
-			ProcessInitializeOnLoadMethodAttributes (262ms)
+			ProcessInitializeOnLoadAttributes (739ms)
+			ProcessInitializeOnLoadMethodAttributes (223ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,669 +121,983 @@ Domain Reload Profiling: 2011ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.565 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.581 seconds
+Refreshing native plugins compatible for Editor in 0.15 ms, found 0 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.493 seconds
-Domain Reload Profiling: 2061ms
-	BeginReloadAssembly (392ms)
+- Finished resetting the current domain, in  1.667 seconds
+Domain Reload Profiling: 2250ms
+	BeginReloadAssembly (341ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (46ms)
+		DisableScriptedObjects (50ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
+		CreateAndSetChildDomain (37ms)
 	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (74ms)
-	LoadAllAssembliesAndSetupDomain (41ms)
-		LoadAssemblies (189ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (113ms)
+		LoadAssemblies (172ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (34ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (10ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1495ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (41ms)
+				TypeCache.ScanAssembly (34ms)
+			ScanForSourceGeneratedMonoScriptInfo (40ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1670ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1011ms)
+		SetupLoadedEditorAssemblies (1144ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (24ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (22ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (137ms)
-			ProcessInitializeOnLoadAttributes (702ms)
-			ProcessInitializeOnLoadMethodAttributes (121ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (870ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.23f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 458 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8 unused Assets / (0.6 MB). Loaded Objects now: 980.
-Memory consumption went from 164.8 MB to 164.2 MB.
-Total: 3.129916 ms (FindLiveObjects: 0.067083 ms CreateObjectMapping: 0.014167 ms MarkObjects: 2.741667 ms  DeleteObjects: 0.303792 ms)
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (0.6 MB). Loaded Objects now: 2089.
+Memory consumption went from 218.0 MB to 217.5 MB.
+Total: 12.631208 ms (FindLiveObjects: 0.347833 ms CreateObjectMapping: 0.048333 ms MarkObjects: 11.302041 ms  DeleteObjects: 0.929000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1090364.787634 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(9d6619e9183f84377904ecc1e05f22db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(9d6619e9183f84377904ecc1e05f22db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a639635c6e6dd58423e08351661ce6') in 0.192508 seconds
+  Time since last request: 1127473.042827 seconds.
+  path: Assets/Fast_food/Prefabs/knight_burger.prefab
+  artifactKey: Guid(e36b525684d6dab41bd566eb46efaf32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Prefabs/knight_burger.prefab using Guid(e36b525684d6dab41bd566eb46efaf32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ceab1bc16b05e656187bfb057d5fac2') in 0.522782 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 174
 ========================================================================
 Received Import Request.
-  Time since last request: 4.347777 seconds.
-  path: Assets/City park/Ground_textures/Gravel/Gravel_basecolor.png
-  artifactKey: Guid(cfe7214bb2deff5419251c47cba8c967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Ground_textures/Gravel/Gravel_basecolor.png using Guid(cfe7214bb2deff5419251c47cba8c967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e6c1ff8e33621d60cb13613b48ce0b') in 0.024349 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 7.272265 seconds.
-  path: Assets/Fast_food/Textures/airconditioner_nmap.png
-  artifactKey: Guid(cb7f70544a833644db2213529aab53cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fast_food/Textures/airconditioner_nmap.png using Guid(cb7f70544a833644db2213529aab53cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458fc89625eba899faa0ebf34ddd1f45') in 0.035451 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/Fruit Market/Textures/1024 x 1024/Apples_02.png
-  artifactKey: Guid(1785503bf88aa944f9f00400a850b6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fruit Market/Textures/1024 x 1024/Apples_02.png using Guid(1785503bf88aa944f9f00400a850b6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb254f6ba22d268705dc72974af8a4b0') in 0.012860 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Fruit Market/Textures/256 x 256/Apples_01.png
-  artifactKey: Guid(33c308bda959e1c409624101b0214382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fruit Market/Textures/256 x 256/Apples_01.png using Guid(33c308bda959e1c409624101b0214382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c4e4a11e5ac794acd7f834e98a784c') in 0.009342 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000704 seconds.
-  path: Assets/Fruit Market/Textures/512 x 512/Apples_01.png
-  artifactKey: Guid(10c87a1ee0c811b4bb6a0dabfed02f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fruit Market/Textures/512 x 512/Apples_01.png using Guid(10c87a1ee0c811b4bb6a0dabfed02f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9007b1ca1e0858c049841f319a4341e') in 0.006989 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Fruit Market/Textures/256 x 256/Apples_02.png
-  artifactKey: Guid(ff2a5ef67ac6b0c46950ec1c6305c42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fruit Market/Textures/256 x 256/Apples_02.png using Guid(ff2a5ef67ac6b0c46950ec1c6305c42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ec84c5896196686ff5553cd3db2909') in 0.006091 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Fruit Market/Textures/1024 x 1024/Apples_01.png
-  artifactKey: Guid(5f162695fa8c2264f905258f23a515a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fruit Market/Textures/1024 x 1024/Apples_01.png using Guid(5f162695fa8c2264f905258f23a515a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5a43fdd501b215e53e904aa9ea5f7c') in 0.006709 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.301416 seconds.
-  path: Assets/City park/Grass_and_flowers/Grass_cut_v1.png
-  artifactKey: Guid(190b329c95b987b4980b22273575ac2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Grass_and_flowers/Grass_cut_v1.png using Guid(190b329c95b987b4980b22273575ac2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7903b2bbbea559d80ce415bfe25a7ad0') in 0.008463 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Fast_food/Textures/Long_Grass04.png
-  artifactKey: Guid(af48f7602d154f1429ee2d3c4cda6d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fast_food/Textures/Long_Grass04.png using Guid(af48f7602d154f1429ee2d3c4cda6d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866a4599834c06add83614b2610c1614') in 0.009708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Fast_food/Textures/long_grass02.png
-  artifactKey: Guid(c1eea75f856d20949b859bff27472d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fast_food/Textures/long_grass02.png using Guid(c1eea75f856d20949b859bff27472d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c690b90c2f5df7a9600ec5bc3e176c79') in 0.007933 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/City park/Ground_textures/GrassGround/Grass_ground_MADS.tif
-  artifactKey: Guid(4f31ec00d979a594c9f402185ed1159d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Ground_textures/GrassGround/Grass_ground_MADS.tif using Guid(4f31ec00d979a594c9f402185ed1159d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd0cdb7bebd8a9951f6cbae8bb6a962') in 0.007063 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 9.275217 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
-  artifactKey: Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg using Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0735a06a17770b7b32ebcda5cb089e') in 0.007946 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Fast_food/Scenes/fast_food/ReflectionProbe-0.exr
-  artifactKey: Guid(4250dcbe1dfe28447b124b30ea922533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fast_food/Scenes/fast_food/ReflectionProbe-0.exr using Guid(4250dcbe1dfe28447b124b30ea922533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3948562d234f446b6ef7c4d75483d10c') in 0.120309 seconds
+  Time since last request: 0.000125 seconds.
+  path: Assets/Fast_food/Textures/extinguisher.tga
+  artifactKey: Guid(f330138059c2159459822a4d75791190) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/extinguisher.tga using Guid(f330138059c2159459822a4d75791190) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db46f5981314a4166e3a6e9ce5e8d83c') in 0.111425 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 2.663911 seconds.
-  path: Assets/Fast_food/Textures/Bricks_brown_dif.png
-  artifactKey: Guid(78894b757bd34324ab4683ccfe4972ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fast_food/Textures/Bricks_brown_dif.png using Guid(78894b757bd34324ab4683ccfe4972ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c77eff4b2a923468360336fff6bdb6') in 0.008870 seconds
+  Time since last request: 0.000217 seconds.
+  path: Assets/Fast_food/Textures/grid_02.tga
+  artifactKey: Guid(7caa0d454bb297f46a79b1de76934532) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/grid_02.tga using Guid(7caa0d454bb297f46a79b1de76934532) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '03026eff5d3f9d939cc7e340dfb36d81') in 0.016393 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_Fast Food.png
-  artifactKey: Guid(06b4c0119aac8524ca9230c7fabe315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_Fast Food.png using Guid(06b4c0119aac8524ca9230c7fabe315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404b065468a8fc6d39c738989047d222') in 0.008705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_Coffee Shop.png
-  artifactKey: Guid(939ea9febbadb6e4c906dcd31ca81e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_Coffee Shop.png using Guid(939ea9febbadb6e4c906dcd31ca81e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfab0484cad91314520fb6a103eba58') in 0.008167 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_Factory.png
-  artifactKey: Guid(952048546b1814f4480519f6d11e8c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_Factory.png using Guid(952048546b1814f4480519f6d11e8c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6596d07c24488a21d5599a7f497b2fa8') in 0.009595 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_Fruits  Shop.png
-  artifactKey: Guid(06486f90deb2cc24492333b868a4b0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_Fruits  Shop.png using Guid(06486f90deb2cc24492333b868a4b0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2987721d4b63848101580ddfb70708d4') in 0.010556 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_Gift Shop.png
-  artifactKey: Guid(0ddba491ce4a04c4b8def1195e6300d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_Gift Shop.png using Guid(0ddba491ce4a04c4b8def1195e6300d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08427724350fcf80528848dcfde7f6a3') in 0.007071 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.257465 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
-  artifactKey: Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png using Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8465ee2a6bb5684f5bfd7cb5c6d1bb') in 0.027790 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 38.293235 seconds.
-  path: Assets/City park/Scenes/SampleScene/Lightmap-0_comp_dir.png
-  artifactKey: Guid(d7159f9c37a8a2a448b633401c2dc6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Scenes/SampleScene/Lightmap-0_comp_dir.png using Guid(d7159f9c37a8a2a448b633401c2dc6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7899376699ec2c6e6e6ba64abf40a5ad') in 0.056126 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/City park/Scenes/SampleScene/Lightmap-0_comp_shadowmask.png
-  artifactKey: Guid(f1f9bc410df948a4ea83323f18fb59e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Scenes/SampleScene/Lightmap-0_comp_shadowmask.png using Guid(f1f9bc410df948a4ea83323f18fb59e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624d6977ecb2760fd52b33a086c997ef') in 0.014018 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 681.522658 seconds.
-  path: Assets/City park/Ground_textures/Gravel/Gravel_normal.png
-  artifactKey: Guid(bc61a357a22244a428186f0a843f45e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Ground_textures/Gravel/Gravel_normal.png using Guid(bc61a357a22244a428186f0a843f45e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f33b163ebe4310ee942ecbc3400a92') in 0.030123 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 56.170484 seconds.
-  path: Assets/City park/Gate/Gate_low.prefab
-  artifactKey: Guid(6864bdc478b11414096e3532d6633aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Gate/Gate_low.prefab using Guid(6864bdc478b11414096e3532d6633aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2d945cfb5c35bec8f2f8b6d1f43dde') in 0.273623 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/City park/Gate/Gate_part1.mat
-  artifactKey: Guid(a25f6102bc17d6644b16c1890a2ec8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Gate/Gate_part1.mat using Guid(a25f6102bc17d6644b16c1890a2ec8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cebb3e215302488fd78772fb058b96') in 0.113593 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/City park/Gate/Gate_part3.mat
-  artifactKey: Guid(9e53b5ac26cc6c049b7a69bcfa758a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Gate/Gate_part3.mat using Guid(9e53b5ac26cc6c049b7a69bcfa758a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770e8052f9541b30a3639f745b624707') in 0.014943 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/City park/Gate/Gate_low_Part1_MetallicSmoothness.png
-  artifactKey: Guid(d2ff1408f1494ae46a1e3a7a490030c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Gate/Gate_low_Part1_MetallicSmoothness.png using Guid(d2ff1408f1494ae46a1e3a7a490030c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d41883041eea4973c592db2b6099a9') in 0.009575 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/City park/Gate/Gate_low_Part3_MetallicSmoothness.png
-  artifactKey: Guid(4c0a199ed680a5648888b1325a063d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Gate/Gate_low_Part3_MetallicSmoothness.png using Guid(4c0a199ed680a5648888b1325a063d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710763f66ed165ac4f09c1d9b9889c84') in 0.005946 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/City park/Gate/Gate_low_Part3_Normal.png
-  artifactKey: Guid(a36949a7f8f975a4c90fa0356173763f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Gate/Gate_low_Part3_Normal.png using Guid(a36949a7f8f975a4c90fa0356173763f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36dad5e69c6aca9e42534011eb898aa4') in 0.006836 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.018953 seconds.
-  path: Assets/City park/Garbage_can/Garbage_can_low.fbx
-  artifactKey: Guid(41371b8188a9fb547afd5542a17318e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Garbage_can/Garbage_can_low.fbx using Guid(41371b8188a9fb547afd5542a17318e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8c6eb17c79714554e111bc30f42543') in 0.078685 seconds
+  Time since last request: 0.000079 seconds.
+  path: Assets/Fast_food/Prefabs/kitchen_ketchup.prefab
+  artifactKey: Guid(91ff1b73888187442a964b1350a7d03e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Prefabs/kitchen_ketchup.prefab using Guid(91ff1b73888187442a964b1350a7d03e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ca77afb0f987246118a613a930abd1b7') in 0.022962 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.845315 seconds.
-  path: Assets/City park/Fence/Fence_low_Fence_AlbedoTransparency.png
-  artifactKey: Guid(d7933457ce7230f44b03b8a3cb0bd6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Fence/Fence_low_Fence_AlbedoTransparency.png using Guid(d7933457ce7230f44b03b8a3cb0bd6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a838e572590262682123e4119b6be9') in 0.007768 seconds
+  Time since last request: 0.000069 seconds.
+  path: Assets/Fast_food/Textures/Bricks_white.png
+  artifactKey: Guid(2e9901544db8aca4cb814eb1769e5431) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/Bricks_white.png using Guid(2e9901544db8aca4cb814eb1769e5431) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd71b76725e5a6cc7d11c0d64b2d711bf') in 0.010797 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/City park/Fence/Fence_low_Fence_Normal 1.png
-  artifactKey: Guid(5d8ef5942e51fe44abac5ff5738bba10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Fence/Fence_low_Fence_Normal 1.png using Guid(5d8ef5942e51fe44abac5ff5738bba10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0305736b352d104052ce39bd864ee165') in 0.006776 seconds
+  Time since last request: 0.000201 seconds.
+  path: Assets/Fast_food/Textures/fries_mat_AmbientOcclusion.png
+  artifactKey: Guid(816dd6fcb6fbb9041ba2e7cf474b0d07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/fries_mat_AmbientOcclusion.png using Guid(816dd6fcb6fbb9041ba2e7cf474b0d07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '62b54a8bb1bdb285415097bf1908012b') in 0.014376 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Fast_food/Textures/floor_mask.png
+  artifactKey: Guid(5750c16034aacb64eb96cee46eb1d9f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/floor_mask.png using Guid(5750c16034aacb64eb96cee46eb1d9f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ca90f659da025fafcb67818602e2a503') in 0.013816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.551871 seconds.
+  path: Assets/Fast_food/Textures/leather_white.png
+  artifactKey: Guid(ff193d5824dd95548b7b6731bf1177d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/leather_white.png using Guid(ff193d5824dd95548b7b6731bf1177d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e0bdc8ae07dab8287669e3e68b992031') in 0.011507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Fruit Market/FBX/Lemon_Whole.fbx
+  artifactKey: Guid(84e70bba1121f1441a73e95268303c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Lemon_Whole.fbx using Guid(84e70bba1121f1441a73e95268303c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ddc745b5e326f0c155c061a93f5207a3') in 0.040696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Fruit Market/FBX/Apple_Mix_Quarter.fbx
+  artifactKey: Guid(98f3d4aee4db9764b85ab9827cf15c9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Apple_Mix_Quarter.fbx using Guid(98f3d4aee4db9764b85ab9827cf15c9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1092242d12a01bd8e7d327fd693f7f04') in 0.013299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Fast_food/Textures/tiles_04_NMAP.png
+  artifactKey: Guid(6207c9d0a0581d84d84aeaff27801c50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/tiles_04_NMAP.png using Guid(6207c9d0a0581d84d84aeaff27801c50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dc6f043aaad776fc41378179476fa5f6') in 0.014203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Fruit Market/FBX/Fruit_Basket.fbx
+  artifactKey: Guid(10ae4227efdc6644183c9880cdcd88e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Fruit_Basket.fbx using Guid(10ae4227efdc6644183c9880cdcd88e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a1bacb0b88a97333f3db8a46756fd20a') in 0.015028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Fast_food/Textures/led.png
+  artifactKey: Guid(7e5c71215ca6bf14a816248c6c259894) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/led.png using Guid(7e5c71215ca6bf14a816248c6c259894) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f256d258393941d2e1f0fce88555b16') in 0.010839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/Fast_food/Textures/road_02.png
+  artifactKey: Guid(f9b0783edacc6b341975cc8d08a7e790) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/road_02.png using Guid(f9b0783edacc6b341975cc8d08a7e790) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'faeb8ed71720513ad5c23ff1e695f52c') in 0.011763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Fruit Market/FBX/Honeydew_Half.fbx
+  artifactKey: Guid(84f56731e12b3c441ad7f41f92de1201) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Honeydew_Half.fbx using Guid(84f56731e12b3c441ad7f41f92de1201) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8011baea04f598f88db2c2f861ac2bf7') in 0.013898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.001598 seconds.
+  path: Assets/Fruit Market/FBX/Cardboard_Box_01.fbx
+  artifactKey: Guid(8c3242d9f14f68145889803d34c2a633) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Cardboard_Box_01.fbx using Guid(8c3242d9f14f68145889803d34c2a633) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '426a2778cbbee6e26203170e3db3d932') in 0.012916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Fruit Market/FBX/Apricot_Half.fbx
+  artifactKey: Guid(6d86c46113e5df34cbd6186b299ada2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Apricot_Half.fbx using Guid(6d86c46113e5df34cbd6186b299ada2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7c737bdcf7a8b0976f3ac09801c7eed0') in 0.011567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Fruit Market/FBX/Kiwi_Half.fbx
+  artifactKey: Guid(ee5a8f3e10a8928409ceab1008114876) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Kiwi_Half.fbx using Guid(ee5a8f3e10a8928409ceab1008114876) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '170f77dc158858064f30c089cc4e56be') in 0.011087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Fruit Market/FBX/Fig_Yellow_Half.fbx
+  artifactKey: Guid(0556372dbd41ab54d80430e70abad324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Fig_Yellow_Half.fbx using Guid(0556372dbd41ab54d80430e70abad324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67bcd1c74b54d1277e68a3fb90bad3aa') in 0.010995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fast_food/Textures/wood_01.png
+  artifactKey: Guid(5d94a5aa7602149438a0050572873004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/wood_01.png using Guid(5d94a5aa7602149438a0050572873004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3243d531bf0932bfc0fd254c0f3a06b7') in 0.013067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Fast_food/Textures/slate_NMAP.png
+  artifactKey: Guid(177cee019c4f8ec4a9f3bb27de0ccaca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/slate_NMAP.png using Guid(177cee019c4f8ec4a9f3bb27de0ccaca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78d0e60c15519392a568ac9eeba66a7f') in 0.014434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000786 seconds.
+  path: Assets/Fruit Market/FBX/Guava.fbx
+  artifactKey: Guid(12e85e716096d2a419ec2a5187ec5bc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Guava.fbx using Guid(12e85e716096d2a419ec2a5187ec5bc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b6d9ce42cba17a525bb56593ec79e07a') in 0.010891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Fast_food/Textures/tiles01.png
+  artifactKey: Guid(a6ccc9479b196244aa60ccebf1e7a53d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/tiles01.png using Guid(a6ccc9479b196244aa60ccebf1e7a53d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7bd71208c066b8920f8bc84358152ce8') in 0.012633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Fast_food/Textures/ventilation.png
+  artifactKey: Guid(07ec144ab8ba86840bef7b78bf34f667) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/ventilation.png using Guid(07ec144ab8ba86840bef7b78bf34f667) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d5d73ace0d95d2c9a3ea9368514fbcc') in 0.010557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Fast_food/Textures/tiles01_2_nmap.png
+  artifactKey: Guid(4137995bf4abf704fa9dec2c00a35bd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/tiles01_2_nmap.png using Guid(4137995bf4abf704fa9dec2c00a35bd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '57a94af8b939082e63b0d63cb907920f') in 0.012678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000629 seconds.
+  path: Assets/Fast_food/Textures/wood_08.png
+  artifactKey: Guid(4aea940087b014640aa8bb95f56cbb47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/wood_08.png using Guid(4aea940087b014640aa8bb95f56cbb47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c34a6e7088c2f418a44bad67e0257113') in 0.011602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Fruit Market/FBX/Banana_Bunch.fbx
+  artifactKey: Guid(bf28ab41f1d01774dafd9cad0d525928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Banana_Bunch.fbx using Guid(bf28ab41f1d01774dafd9cad0d525928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fe966e03370c1e44bee0ff51944dbebd') in 0.012532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Fruit Market/FBX/Kiwi_Yellow_Slice.fbx
+  artifactKey: Guid(a340e31f7ce859949a15dc1ec45f4448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Kiwi_Yellow_Slice.fbx using Guid(a340e31f7ce859949a15dc1ec45f4448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2438a7d4acff3f6bacde49bb5cb926ea') in 0.011951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Fast_food/Textures/metal_cheese.png
+  artifactKey: Guid(ddb6a74dfb0d52c45a3347abab6feb7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/metal_cheese.png using Guid(ddb6a74dfb0d52c45a3347abab6feb7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c2439d6583505dae7f790d8a2fc2f7b') in 0.011659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Fast_food/Textures/tiles_03_nmap.png
+  artifactKey: Guid(30c77ff355fa9724e9458b617f4ac978) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/tiles_03_nmap.png using Guid(30c77ff355fa9724e9458b617f4ac978) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1acbf7389316043296e49a36c835863d') in 0.011778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Fruit Market/FBX/Fig_Green.fbx
+  artifactKey: Guid(9a4e7608ab92a354bb406b8fdb9d14ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Fig_Green.fbx using Guid(9a4e7608ab92a354bb406b8fdb9d14ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3637da4ab0bab33f883b0b6e18a8c0c8') in 0.011538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Fast_food/Textures/price.png
+  artifactKey: Guid(ef5ce9d288af64f48b6a7e1be7da9378) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/price.png using Guid(ef5ce9d288af64f48b6a7e1be7da9378) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd59c9697a0ec1e0376764af374959d56') in 0.010506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001164 seconds.
+  path: Assets/Fast_food/Textures/metal_03.png
+  artifactKey: Guid(5f7df885db965c648bfdab16606850ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/metal_03.png using Guid(5f7df885db965c648bfdab16606850ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '90e5c0b06d5374b0803d3f2ba7da86c4') in 0.011965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000124 seconds.
-  path: Assets/City park/Fence/Fence_low_Fence_Metalic_and_smoothness 1.tif
-  artifactKey: Guid(68f643f2cd1ced948b87c3c57f07b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Fence/Fence_low_Fence_Metalic_and_smoothness 1.tif using Guid(68f643f2cd1ced948b87c3c57f07b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f534d3ece003824ffba4bdc1ea4083') in 0.006688 seconds
+  path: Assets/Fruit Market/FBX/Kiwi_Yellow_Half.fbx
+  artifactKey: Guid(f9fa441f894ded243937e5161de01b57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Kiwi_Yellow_Half.fbx using Guid(f9fa441f894ded243937e5161de01b57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0bb11cd9c4a2fee39c8014d29d45864d') in 0.011193 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Fruit Market/FBX/Mango_Green_Slice.fbx
+  artifactKey: Guid(1fd303b03a2b87c4cb79bf18321b6214) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Mango_Green_Slice.fbx using Guid(1fd303b03a2b87c4cb79bf18321b6214) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '586bcdefb7d39b936aafa8a61c29aeb8') in 0.012605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Fast_food/Textures/wood_ext_nmp.png
+  artifactKey: Guid(7de5e492adac4964db305b22b650a10c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/wood_ext_nmp.png using Guid(7de5e492adac4964db305b22b650a10c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8557de98cf0eabb6a375bc4b2e81a43') in 0.011109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001213 seconds.
+  path: Assets/Fast_food/Textures/wood_tiled_02_a.tif
+  artifactKey: Guid(8f29748f642cb6747ade244ccf511ee6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/wood_tiled_02_a.tif using Guid(8f29748f642cb6747ade244ccf511ee6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0b6ef0a82ccc9282276210d7ae8e0d79') in 0.013184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000909 seconds.
+  path: Assets/Fast_food/Textures/wood_tiled_03_a.tif
+  artifactKey: Guid(987ef68af65521346b18cd2a2ca60614) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/wood_tiled_03_a.tif using Guid(987ef68af65521346b18cd2a2ca60614) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f1a3035c906331e8cb47580f41c6ee68') in 0.013210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Fast_food/Textures/tiles_07.png
+  artifactKey: Guid(b655285f5eb9bb94baea44f66ffa6e57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/tiles_07.png using Guid(b655285f5eb9bb94baea44f66ffa6e57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c25de8c96c906aafc4965345cc4d95bb') in 0.011989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001336 seconds.
+  path: Assets/Fruit Market/FBX/Lemon_Quarter.fbx
+  artifactKey: Guid(f33826e4358584b419e5edfa3915f38c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Lemon_Quarter.fbx using Guid(f33826e4358584b419e5edfa3915f38c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '807c6b44d7569427edb5a44b89a02a97') in 0.011158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.001602 seconds.
+  path: Assets/Fruit Market/FBX/Dragonfruit.fbx
+  artifactKey: Guid(857500568e843a8459a2b2e7d00ca5e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Dragonfruit.fbx using Guid(857500568e843a8459a2b2e7d00ca5e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0124a9b038a1e6b38cc648fb21d69df0') in 0.012024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Fruit Market/FBX/Durian_Half.fbx
+  artifactKey: Guid(113e7d84114068945b6bfff2e2bb136c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Durian_Half.fbx using Guid(113e7d84114068945b6bfff2e2bb136c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '32a2a77c6b8e08786886104fa8f61607') in 0.012173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Fruit Market/FBX/Grapes_02.fbx
+  artifactKey: Guid(50da59465e8dd8a46b822802d4586c35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Grapes_02.fbx using Guid(50da59465e8dd8a46b822802d4586c35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b90c4a356e1a9581a0d0eaf943189575') in 0.013176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Fast_food/Textures/tiles_04.png
+  artifactKey: Guid(4d2f78ae3063808468a9f7c061053ace) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/tiles_04.png using Guid(4d2f78ae3063808468a9f7c061053ace) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ffddb503b6aebad31fab1f2f191fef99') in 0.010936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002663 seconds.
+  path: Assets/Fast_food/Textures/vent_mat_Normal.png
+  artifactKey: Guid(b0775a54579a45c4ea408c07265bdde5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/vent_mat_Normal.png using Guid(b0775a54579a45c4ea408c07265bdde5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e73ec0f01c2198acfeee60edfddc88a8') in 0.012793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Fruit Market/FBX/Blackberry.fbx
+  artifactKey: Guid(ca8f59c18f487c64aaca1c6084f286f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Blackberry.fbx using Guid(ca8f59c18f487c64aaca1c6084f286f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '33e67317f919e6a05b53cedf44a03826') in 0.011355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Fruit Market/FBX/Mango_Green.fbx
+  artifactKey: Guid(7542d702e0d9b4543bf6340b2d667249) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Mango_Green.fbx using Guid(7542d702e0d9b4543bf6340b2d667249) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e0028cecd8df96e939a566beeef061d5') in 0.010237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Fast_food/Textures/slate.png
+  artifactKey: Guid(bf177373c4891824496c352e466741e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/slate.png using Guid(bf177373c4891824496c352e466741e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bac14864c4b65f9a62084d49ad334ece') in 0.015079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Fast_food/Textures/vents.png
+  artifactKey: Guid(1cf1edde51088a447978deb7a29d7802) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/vents.png using Guid(1cf1edde51088a447978deb7a29d7802) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '902a3bcd588387cf2e32fc7658d92945') in 0.011851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Fast_food/Textures/order_menu_etc.png
+  artifactKey: Guid(db5d42bf567b40641b35409acd51bdce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/order_menu_etc.png using Guid(db5d42bf567b40641b35409acd51bdce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '73e3597191473f5f9d7223c6685acb30') in 0.013785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Fruit Market/FBX/Blueberry.fbx
+  artifactKey: Guid(8567a04320f084749aef3087aeee772b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Blueberry.fbx using Guid(8567a04320f084749aef3087aeee772b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2c96f12d61971c1694b339a6bcf25858') in 0.011897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Fruit Market/FBX/Coconut.fbx
+  artifactKey: Guid(8e1723b9cbf0e5f45a55c1f4bbd28f7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Coconut.fbx using Guid(8e1723b9cbf0e5f45a55c1f4bbd28f7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8e3d542c451e9507bb2f38fd0f36b059') in 0.010407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Fruit Market/FBX/Cantaloupe_Cut.fbx
+  artifactKey: Guid(3faf17c866420bc4cafae5593b50e61a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Cantaloupe_Cut.fbx using Guid(3faf17c866420bc4cafae5593b50e61a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7740d70dbbd7b8fb149e6133252b1c64') in 0.011344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
   Time since last request: 0.000234 seconds.
-  path: Assets/City park/Fence/Fence_p2_low.prefab
-  artifactKey: Guid(39aabac3d9863d946b2bcab832a82b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Fence/Fence_p2_low.prefab using Guid(39aabac3d9863d946b2bcab832a82b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89e4517be1f85bef24ad2f9f6873195') in 0.010367 seconds
+  path: Assets/Fruit Market/FBX/Fig_Purple.fbx
+  artifactKey: Guid(d7ea2da028abd364193ae7b5f0ba5394) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Fig_Purple.fbx using Guid(d7ea2da028abd364193ae7b5f0ba5394) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c9bee7dc90715aaddb8aa9ff44b5e51') in 0.015468 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/City park/Fence/Fence_p1_low.prefab
-  artifactKey: Guid(6cd1b0c4ad240844e807b203ef080535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Fence/Fence_p1_low.prefab using Guid(6cd1b0c4ad240844e807b203ef080535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05734f67a07301d1c1b4be65a1961d30') in 0.009635 seconds
+  Time since last request: 0.000151 seconds.
+  path: Assets/Fruit Market/FBX/Coconut_Green_Half.fbx
+  artifactKey: Guid(fb3cd6999efb22847a19ffc8c4c206eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Coconut_Green_Half.fbx using Guid(fb3cd6999efb22847a19ffc8c4c206eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5887560cb4fad9cd13a4bf5ce2ba4f14') in 0.010996 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 2.806757 seconds.
-  path: Assets/City park/Bench/Bench.prefab
-  artifactKey: Guid(93725bea51b73be4383ba8fdaa4dc6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Bench/Bench.prefab using Guid(93725bea51b73be4383ba8fdaa4dc6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd7e94f250671f14a83a5e371076f3d') in 0.034151 seconds
+  Time since last request: 0.000205 seconds.
+  path: Assets/Fruit Market/FBX/Grapes_03.fbx
+  artifactKey: Guid(188e330ac9190ab448f94739dc9175b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Grapes_03.fbx using Guid(188e330ac9190ab448f94739dc9175b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8e4fc50964f3aede881b21d21deae501') in 0.012859 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/City park/Bench/Bench_low_Bench_base_Height.png
-  artifactKey: Guid(e3c1faf91abde1242b4d23848fab3cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Bench/Bench_low_Bench_base_Height.png using Guid(e3c1faf91abde1242b4d23848fab3cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03937e20b96a7228e7bcec89aac21080') in 0.006110 seconds
+  Time since last request: 0.000189 seconds.
+  path: Assets/Fast_food/Textures/road.png
+  artifactKey: Guid(293f18ec454196246b8f0752455ae759) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/road.png using Guid(293f18ec454196246b8f0752455ae759) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97771f9d624c25cb3c99d923dd38b908') in 0.013715 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/City park/Bench/Bench_low_Bench_planks_BaseColor.png
-  artifactKey: Guid(ea8e29818b598fb4a9e29cc9a6b8ea59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Bench/Bench_low_Bench_planks_BaseColor.png using Guid(ea8e29818b598fb4a9e29cc9a6b8ea59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6e5fea18930d155cc949ad2a9b70cb') in 0.005932 seconds
+  Time since last request: 0.000101 seconds.
+  path: Assets/Fruit Market/FBX/Cardboard_Basket.fbx
+  artifactKey: Guid(d462e120dc838ff44a752b2812cf33f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Cardboard_Basket.fbx using Guid(d462e120dc838ff44a752b2812cf33f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '48712bdef54460114932783d518de4d8') in 0.010908 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/City park/Bench/Bench_planks.mat
-  artifactKey: Guid(0fe0e3db8c4beb744a46b3d82585cddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Bench/Bench_planks.mat using Guid(0fe0e3db8c4beb744a46b3d82585cddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bac031513f79b8bef30ac5389bedb5e') in 0.010755 seconds
+  Time since last request: 0.000151 seconds.
+  path: Assets/Fast_food/Textures/tiles_ext_nmap.png
+  artifactKey: Guid(ab3507ba7e2854945b3e271e3a1dfed2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/tiles_ext_nmap.png using Guid(ab3507ba7e2854945b3e271e3a1dfed2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d344055ae439ab330a88cdb77145ad4') in 0.012076 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/City park/Bench/Bench_low_Bench_base_Metalic_and_smoothness.tif
-  artifactKey: Guid(e8877ee9156afa5408cf748050ce1bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Bench/Bench_low_Bench_base_Metalic_and_smoothness.tif using Guid(e8877ee9156afa5408cf748050ce1bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e719440885d8b7f660ddf8df40ccc8') in 0.005858 seconds
+  Time since last request: 0.000201 seconds.
+  path: Assets/Fruit Market/FBX/Cherry_Yellow.fbx
+  artifactKey: Guid(070359fa98381e340abf9bba32094e22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Cherry_Yellow.fbx using Guid(070359fa98381e340abf9bba32094e22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a384be624bd630de680021b7be38b017') in 0.010952 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/City park/Bench/Bench_base.mat
-  artifactKey: Guid(05a2e81d710cb3a47a0a317fb7a383c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Bench/Bench_base.mat using Guid(05a2e81d710cb3a47a0a317fb7a383c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166ed9eef30ad087d044dff77861ad2b') in 0.008447 seconds
+  Time since last request: 0.000120 seconds.
+  path: Assets/Fast_food/Textures/vents_nmap.png
+  artifactKey: Guid(afb5d461142c2794d9f8635be6e2f6e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/vents_nmap.png using Guid(afb5d461142c2794d9f8635be6e2f6e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd3bc74609ff78992d7f847475094bdbb') in 0.012333 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Fruit Market/FBX/Gooseberry_Red.fbx
+  artifactKey: Guid(c2f88c4436b85a24cb2c4d838fb89725) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Gooseberry_Red.fbx using Guid(c2f88c4436b85a24cb2c4d838fb89725) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5fa8d48c6547284607eecfdd3b98a25a') in 0.011561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Fast_food/Textures/metal_3_spec.tga
+  artifactKey: Guid(7fa95dddcff4ba54289aa5c84246284b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/metal_3_spec.tga using Guid(7fa95dddcff4ba54289aa5c84246284b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '750d347493507b3e901ff7cad5ecbb64') in 0.012026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Fruit Market/FBX/Gooseberry_Green.fbx
+  artifactKey: Guid(25dd4396400dfa440847fa8ba554b632) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Gooseberry_Green.fbx using Guid(25dd4396400dfa440847fa8ba554b632) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3b9dac0e4cb8ec82d9f9e308015f4281') in 0.011416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Fruit Market/FBX/Fig_Green_Half.fbx
+  artifactKey: Guid(9809056caef8e76459b516ff79623cea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Fig_Green_Half.fbx using Guid(9809056caef8e76459b516ff79623cea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '587399dec0b7cc0050bc7c01ae4ca834') in 0.011134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Fruit Market/FBX/Jackfruit.fbx
+  artifactKey: Guid(bf34e00ece8174a4180f7938efe6428a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Jackfruit.fbx using Guid(bf34e00ece8174a4180f7938efe6428a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e0c78802cd10be958ef4213e5503b4b6') in 0.011298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Fast_food/Textures/long_grass02.png
+  artifactKey: Guid(c1eea75f856d20949b859bff27472d6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/long_grass02.png using Guid(c1eea75f856d20949b859bff27472d6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'abecc91b7d39d89c606fdd2a480724c7') in 0.010551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Fruit Market/FBX/Coconut_Half.fbx
+  artifactKey: Guid(3551c12cb2184de479892a169bfe62d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Coconut_Half.fbx using Guid(3551c12cb2184de479892a169bfe62d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '11e1fa8007666f1e3931cebd90ffba6b') in 0.012007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Fruit Market/FBX/Apple_Green_Quarter.fbx
+  artifactKey: Guid(5c974431d7e52a5458fbc4da73522763) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Apple_Green_Quarter.fbx using Guid(5c974431d7e52a5458fbc4da73522763) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a2dafeefe4c223dc67092a54bb1d3783') in 0.011698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Fruit Market/FBX/Cherry_Black.fbx
+  artifactKey: Guid(35ca2dc58da505a4588bdf7990013d66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Cherry_Black.fbx using Guid(35ca2dc58da505a4588bdf7990013d66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '65df58febb7256e411fa7bcaf40d2aa9') in 0.012167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Fruit Market/FBX/Honeydew_Slice.fbx
+  artifactKey: Guid(439c31e328af78d49b7c7fa85bb09f05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Honeydew_Slice.fbx using Guid(439c31e328af78d49b7c7fa85bb09f05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '41a7ec29906a8fad9c327de1a014efde') in 0.011391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Fruit Market/FBX/Grapefruit_Quarter.fbx
+  artifactKey: Guid(5e0723955f4dd1d4197dd3b08f7add68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Grapefruit_Quarter.fbx using Guid(5e0723955f4dd1d4197dd3b08f7add68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c9a8323d98d9071a8a7a6e73281f4a8a') in 0.012090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000748 seconds.
+  path: Assets/Fruit Market/FBX/Apple_Pink_Quarter.fbx
+  artifactKey: Guid(9671f38650382d441aebda11ae923259) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Apple_Pink_Quarter.fbx using Guid(9671f38650382d441aebda11ae923259) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '25c346e12b5e8fc7411bdef970d8f1ad') in 0.011612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Fast_food/Textures/long_grass01.png
+  artifactKey: Guid(053f33e33eac27b45b0a97983a65b233) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/long_grass01.png using Guid(053f33e33eac27b45b0a97983a65b233) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5958d377b9727ddf0633c0444eb4df43') in 0.010863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Fruit Market/FBX/Kiwi_Whole.fbx
+  artifactKey: Guid(3aeecc6ff4c50a842845bcc692cbf3ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Kiwi_Whole.fbx using Guid(3aeecc6ff4c50a842845bcc692cbf3ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c3877ee6bcec337e6c8553dfa8a517f9') in 0.013207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Fruit Market/FBX/Honeydew.fbx
+  artifactKey: Guid(ad7c216acc055904bafe162c684114e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Honeydew.fbx using Guid(ad7c216acc055904bafe162c684114e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd7c283c24d0275bd7bd801481d94d025') in 0.011742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000655 seconds.
+  path: Assets/Fruit Market/FBX/Grapefruit_Whole.fbx
+  artifactKey: Guid(b8fa71a979d91f44bb60b308a84b2e91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Grapefruit_Whole.fbx using Guid(b8fa71a979d91f44bb60b308a84b2e91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de0feb6d126d4d50d32b4ab6ee16e98f') in 0.012574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Fruit Market/FBX/Apple_Green_Half.fbx
+  artifactKey: Guid(4480c7eec57dab24cb66f1a643f84769) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Apple_Green_Half.fbx using Guid(4480c7eec57dab24cb66f1a643f84769) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8fe3693a8e8aab002565429cfae875ee') in 0.011831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000574 seconds.
+  path: Assets/Fast_food/Textures/parking.png
+  artifactKey: Guid(948e2e439cd4ad847bad2374ea6d6116) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fast_food/Textures/parking.png using Guid(948e2e439cd4ad847bad2374ea6d6116) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c67054d1c830dd4b4b6ffe2005df98c9') in 0.014502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000731 seconds.
+  path: Assets/Fruit Market/FBX/Lime_Half.fbx
+  artifactKey: Guid(26c49640aa8491e4193c5c557c84968c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fruit Market/FBX/Lime_Half.fbx using Guid(26c49640aa8491e4193c5c557c84968c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7e6871d483953e7e839a79cd6ed0b82c') in 0.019271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.526 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.633 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.570 seconds
-Domain Reload Profiling: 2098ms
-	BeginReloadAssembly (363ms)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.766 seconds
+Domain Reload Profiling: 2401ms
+	BeginReloadAssembly (405ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (37ms)
+		DisableScriptedObjects (69ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (2ms)
-		CreateAndSetChildDomain (55ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
 	RebuildCommonClasses (48ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (82ms)
-	LoadAllAssembliesAndSetupDomain (19ms)
-		LoadAssemblies (200ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (82ms)
+		LoadAssemblies (226ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1572ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (14ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1768ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1026ms)
+		SetupLoadedEditorAssemblies (1195ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (23ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (24ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (130ms)
-			ProcessInitializeOnLoadAttributes (720ms)
-			ProcessInitializeOnLoadMethodAttributes (124ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (918ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 436 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5 unused Assets / (0.5 MB). Loaded Objects now: 1032.
-Memory consumption went from 164.7 MB to 164.2 MB.
-Total: 2.453333 ms (FindLiveObjects: 0.068958 ms CreateObjectMapping: 0.016333 ms MarkObjects: 2.087833 ms  DeleteObjects: 0.278667 ms)
+Unloading 1602 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (0.5 MB). Loaded Objects now: 2156.
+Memory consumption went from 222.0 MB to 221.5 MB.
+Total: 3.220708 ms (FindLiveObjects: 0.180125 ms CreateObjectMapping: 0.150375 ms MarkObjects: 2.620875 ms  DeleteObjects: 0.267708 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.614 seconds
+Refreshing native plugins compatible for Editor in 4.26 ms, found 6 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.849 seconds
+Domain Reload Profiling: 2465ms
+	BeginReloadAssembly (387ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (57ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (91ms)
+		LoadAssemblies (233ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (61ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (15ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1851ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1301ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (24ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (964ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.91 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1750 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 2271.
+Memory consumption went from 229.2 MB to 228.7 MB.
+Total: 3.203083 ms (FindLiveObjects: 0.138833 ms CreateObjectMapping: 0.072042 ms MarkObjects: 2.681500 ms  DeleteObjects: 0.309167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.624 seconds
+Refreshing native plugins compatible for Editor in 3.62 ms, found 6 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.767 seconds
+Domain Reload Profiling: 2394ms
+	BeginReloadAssembly (405ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (52ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (77ms)
+		LoadAssemblies (258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (48ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1769ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1216ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (24ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (879ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.82 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1753 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 2283.
+Memory consumption went from 233.4 MB to 232.8 MB.
+Total: 3.088875 ms (FindLiveObjects: 0.131041 ms CreateObjectMapping: 0.044750 ms MarkObjects: 2.549666 ms  DeleteObjects: 0.361792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 737.688934 seconds.
-  path: Assets/City park/Ground_textures/DirtGround/IslandDirtGround_v2_MADS.tif
-  artifactKey: Guid(b1d72a9b047ba5f46905b027d00a7814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Ground_textures/DirtGround/IslandDirtGround_v2_MADS.tif using Guid(b1d72a9b047ba5f46905b027d00a7814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370ac26c1c22578febda61466c0dd955') in 0.217195 seconds
+  Time since last request: 205.458929 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Gas Station.fbx
+  artifactKey: Guid(25449c1a4c4ca004ead70b6c0889695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Gas Station.fbx using Guid(25449c1a4c4ca004ead70b6c0889695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368f5409c609280b650b6d25fc5a49f9') in 0.862835 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/City park/Ground_textures/DirtGround/IslandDirtGround_v2_normal.png
-  artifactKey: Guid(9d7445179addc8d48bdf070195dc9e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Ground_textures/DirtGround/IslandDirtGround_v2_normal.png using Guid(9d7445179addc8d48bdf070195dc9e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f19121ebe25b08c1eb26ec812b04e4') in 0.017572 seconds
+  Time since last request: 0.263886 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.asmdef
+  artifactKey: Guid(9233538b711383d449a485633568d17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.asmdef using Guid(9233538b711383d449a485633568d17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ca6c02e0f07abac9b84c02c7401b21') in 0.000466 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.308164 seconds.
-  path: Assets/City park/Lamp/Glass.mat
-  artifactKey: Guid(d1126143175b14642ab4692708e99e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Lamp/Glass.mat using Guid(d1126143175b14642ab4692708e99e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ceead115b8ad2024e37d29ddf2c5882') in 0.273452 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000864 seconds.
-  path: Assets/City park/Lamp/StreetLamp_low.prefab
-  artifactKey: Guid(ecd8b48efcdf7694a9e71e0f23d785c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Lamp/StreetLamp_low.prefab using Guid(ecd8b48efcdf7694a9e71e0f23d785c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d785c856292587de90741ed8bcbd7e') in 0.087594 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.036591 seconds.
-  path: Assets/City park/Main_obj/Main_obj.mat
-  artifactKey: Guid(8970ffdd6120aee4f9a24691ab5c51bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Main_obj/Main_obj.mat using Guid(8970ffdd6120aee4f9a24691ab5c51bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30edfd2bfcab7dd59e4383231f300bd7') in 0.018490 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/City park/Main_obj/Main_obj_low_DefaultMaterial_Normal.png
-  artifactKey: Guid(2d1abf07532c07d46a17d65d827feb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Main_obj/Main_obj_low_DefaultMaterial_Normal.png using Guid(2d1abf07532c07d46a17d65d827feb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da74555f1db7a2df57f704561624957a') in 0.014060 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/City park/Main_obj/Main_obj_low.prefab
-  artifactKey: Guid(fc54d2c9e7b6688418a064e77e825341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Main_obj/Main_obj_low.prefab using Guid(fc54d2c9e7b6688418a064e77e825341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8b1978a670dcf9f74e088272483474') in 0.018714 seconds
+  Time since last request: 46.872280 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Tunneling Vignette/TunnelingVignette.prefab
+  artifactKey: Guid(6c8af5c8012f01440af6cb2bc3eb987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Tunneling Vignette/TunnelingVignette.prefab using Guid(6c8af5c8012f01440af6cb2bc3eb987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e34981663ab49d8b49d39a632a8c38') in 0.274027 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/City park/Main_obj/Main_obj_low.fbx
-  artifactKey: Guid(a97d89d9dce3a7c42a133d1ecf6615c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Main_obj/Main_obj_low.fbx using Guid(a97d89d9dce3a7c42a133d1ecf6615c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2f235d6dac1fa3a743ee5a047c9ca0') in 0.063241 seconds
+  Time since last request: 0.000686 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Tunneling Vignette/TunnelingVignetteHemisphere.fbx
+  artifactKey: Guid(5833e680dc0f7ae47aec6b4286570484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Tunneling Vignette/TunnelingVignetteHemisphere.fbx using Guid(5833e680dc0f7ae47aec6b4286570484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f602f00a6b8266337af60a1a1d820629') in 0.035957 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 880.733164 seconds.
-  path: Assets/City park/Mirror_objs/Mirror_obj.prefab
-  artifactKey: Guid(2e6a8af69ba790643a40eb6a1b92dba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Mirror_objs/Mirror_obj.prefab using Guid(2e6a8af69ba790643a40eb6a1b92dba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e2b69c4c70e9af73e248227747ba40') in 0.101132 seconds
+  Time since last request: 5.641894 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Presets/XRI Default Continuous Turn.preset
+  artifactKey: Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Presets/XRI Default Continuous Turn.preset using Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2070dab258f5fa9e2c74ae5fab125723') in 0.017909 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 23.026095 seconds.
-  path: Assets/City park/Trees/Tree 1_Textures/normal_specular.png
-  artifactKey: Guid(e2f6e1d8f6085f24eab813953702a194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Trees/Tree 1_Textures/normal_specular.png using Guid(e2f6e1d8f6085f24eab813953702a194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71acca39cc2aa66f6afab30b9a42759') in 0.016795 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.587261 seconds.
-  path: Assets/City park/Trees/Tree 2_Textures/normal_specular.png
-  artifactKey: Guid(a8c5c065840f13a45bd4ebef65d08292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Trees/Tree 2_Textures/normal_specular.png using Guid(a8c5c065840f13a45bd4ebef65d08292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c66cae57021e295cc97ee7304fbf2d2') in 0.007099 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.001419 seconds.
-  path: Assets/City park/Trees/Tree 2_Textures/shadow.png
-  artifactKey: Guid(28e30eb0445ab6d4488f859ddd696570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Trees/Tree 2_Textures/shadow.png using Guid(28e30eb0445ab6d4488f859ddd696570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633b5200dcc793dab3bd5c435dcba039') in 0.003973 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.873360 seconds.
-  path: Assets/City park/Trees/Copies/Tree 1.prefab
-  artifactKey: Guid(9ea1d4947c5c69940939f521f5dca4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Trees/Copies/Tree 1.prefab using Guid(9ea1d4947c5c69940939f521f5dca4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979c81fc6c456ea95665c14efece441d') in 0.101406 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/City park/Trees/Copies/Tree 3.prefab
-  artifactKey: Guid(1109a6c9e70f8274397daa3f4c7576ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Trees/Copies/Tree 3.prefab using Guid(1109a6c9e70f8274397daa3f4c7576ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fd499eb3a75b4065350a2bec7d9cb9') in 0.038627 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 188.756594 seconds.
-  path: Assets/City park/Trees/Copies/Tree 1_Textures/normal_specular.png
-  artifactKey: Guid(b8d409cb1135644c1b3f1f16a11a21e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Trees/Copies/Tree 1_Textures/normal_specular.png using Guid(b8d409cb1135644c1b3f1f16a11a21e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a1f0f2db1e95a59c710866d0c8b2ba') in 0.034738 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 80.478423 seconds.
-  path: Assets/City park/Trees/Tree 3_Textures/shadow.png
-  artifactKey: Guid(7ca1639187010b44cb7b2ca1fb09b185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Trees/Tree 3_Textures/shadow.png using Guid(7ca1639187010b44cb7b2ca1fb09b185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f742f0476ca6d555aa4781e8da448f') in 0.032992 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/City park/Trees/Tree 3_Textures/translucency_gloss.png
-  artifactKey: Guid(df74da20afdb6474eb9ee7f465f516bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Trees/Tree 3_Textures/translucency_gloss.png using Guid(df74da20afdb6474eb9ee7f465f516bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe05c323ad784fc8b174a699e0d02a3') in 0.006372 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 16.530950 seconds.
-  path: Assets/City park/Trees/Tree_02.prefab
-  artifactKey: Guid(b1442dad6712b5b4b86a8c41b4a6e733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Trees/Tree_02.prefab using Guid(b1442dad6712b5b4b86a8c41b4a6e733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa17c4eacd85cb5ec9afcc524e0831c') in 0.117072 seconds
+  Time since last request: 0.000086 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Presets/XRI Default Right Controller.preset
+  artifactKey: Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Presets/XRI Default Right Controller.preset using Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25dd05e3006651011607cbb0dac8e95') in 0.027115 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 20
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/City park/Trees/Tree_04.prefab
-  artifactKey: Guid(4dfcac7b681cac441ac8dc8542cf6a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Trees/Tree_04.prefab using Guid(4dfcac7b681cac441ac8dc8542cf6a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ce9a21844350ae2744b3c12ac849cf') in 0.082926 seconds
+  Time since last request: 0.000356 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Presets/XRI Default Gaze Controller.preset
+  artifactKey: Guid(2e6e6d902741c934ba75a28389d4f66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Presets/XRI Default Gaze Controller.preset using Guid(2e6e6d902741c934ba75a28389d4f66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1442b78bc920b289acb6abdd922d3f0') in 0.004818 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/City park/Trees/Tree_05.prefab
-  artifactKey: Guid(7060a40df9d386f46bd97d954de6eb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Trees/Tree_05.prefab using Guid(7060a40df9d386f46bd97d954de6eb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7e30e304cdaccda8c25a7fca095c10') in 0.082077 seconds
+  Time since last request: 0.000071 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Presets/XRI Default Right ActionBasedControllerManager.preset
+  artifactKey: Guid(55f7614a1d331d14bb631965514937d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Presets/XRI Default Right ActionBasedControllerManager.preset using Guid(55f7614a1d331d14bb631965514937d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558b7faf80988f06f0b55dec0669f480') in 0.015700 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/City park/Trees/TreeBark_basecolor 1.png
-  artifactKey: Guid(bac67a2b1325ee0469adae54ac699e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Trees/TreeBark_basecolor 1.png using Guid(bac67a2b1325ee0469adae54ac699e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b6040d079f22f3d71ffe5486c858a6') in 0.006530 seconds
+  Time since last request: 0.000056 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Presets/XRI Default Left ActionBasedControllerManager.preset
+  artifactKey: Guid(c3d4ecc12d5e0f14c93fd734af32ab63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Presets/XRI Default Left ActionBasedControllerManager.preset using Guid(c3d4ecc12d5e0f14c93fd734af32ab63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c356757aef0552c93b99011bb4d13a9c') in 0.002596 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/City park/Trees/WoodBark_Gloss.tif
-  artifactKey: Guid(70b0e2f85f8d60044a09873f26cf8c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Trees/WoodBark_Gloss.tif using Guid(70b0e2f85f8d60044a09873f26cf8c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a762d3ad8ee5440639000ea8595d244a') in 0.006870 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/City park/Trees/TreeBark_normal.png
-  artifactKey: Guid(1e40eb4f97d26ea42b6b7410515da42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Trees/TreeBark_normal.png using Guid(1e40eb4f97d26ea42b6b7410515da42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b42143fc29e1b6e0d235d9b5ba39600') in 0.007449 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.987073 seconds.
-  path: Assets/City park/Trees/Tree_Textures/normal_specular.png
-  artifactKey: Guid(6903d4d9496468449a0560f5a016bb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Trees/Tree_Textures/normal_specular.png using Guid(6903d4d9496468449a0560f5a016bb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62ecc4da8a30ab8e1fb580b2989b7ef') in 0.034296 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/City park/Trees/Tree_Textures/translucency_gloss.png
-  artifactKey: Guid(d31c101a1e9b89c4b89e08490442266e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Trees/Tree_Textures/translucency_gloss.png using Guid(d31c101a1e9b89c4b89e08490442266e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07364db53eba3799cee74ed27971702') in 0.003953 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 909.828650 seconds.
-  path: Assets/City park/Trees/Tree_04.prefab
-  artifactKey: Guid(4dfcac7b681cac441ac8dc8542cf6a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/City park/Trees/Tree_04.prefab using Guid(4dfcac7b681cac441ac8dc8542cf6a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2c95832613465c2765ab6afb4c14d1') in 0.147980 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 8
