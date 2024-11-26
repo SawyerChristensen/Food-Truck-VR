@@ -357,3 +357,553 @@ Received Import Request.
 Start importing Assets/City park/Ground_textures/GrassGround/Grass_ground.terrainlayer using Guid(b04f90af722fa514591731c8cc5d111f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6f6ea7b70b9daac9d37a5f629ce209') in 0.059291 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 650.928296 seconds.
+  path: Assets/City park/Ground_textures/Gravel/Gravel.terrainlayer
+  artifactKey: Guid(a4027cf417dc8d14ea1e830a0c6a8892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Ground_textures/Gravel/Gravel.terrainlayer using Guid(a4027cf417dc8d14ea1e830a0c6a8892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db87b4312b4d29ae0ccd0e9cdb5a9d04') in 0.040607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/City park/Ground_textures/Gravel/Gravel_MADS.tif
+  artifactKey: Guid(55004ee1e0fc07a4baaa69434f4cb2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Ground_textures/Gravel/Gravel_MADS.tif using Guid(55004ee1e0fc07a4baaa69434f4cb2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d53d3ee9fb80177a1a5a166b0e367f') in 0.016570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 56.171378 seconds.
+  path: Assets/City park/Gate/Gate_low.fbx
+  artifactKey: Guid(a6a1a866441dfdb4c8bd23ac9b4e1437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Gate/Gate_low.fbx using Guid(a6a1a866441dfdb4c8bd23ac9b4e1437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c47022a68c58dfce42e7e91e8b6ec1a') in 0.375069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/City park/Gate/Gate_low_Part1_AlbedoTransparency.png
+  artifactKey: Guid(a56a90575940d7d45912513db61ff9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Gate/Gate_low_Part1_AlbedoTransparency.png using Guid(a56a90575940d7d45912513db61ff9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a4cbe68a0881b5f573a4a6852113bd') in 0.005887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/City park/Gate/Gate_low_Part2_AlbedoTransparency.png
+  artifactKey: Guid(ea208e49d393d384c9dedb6c7fca3f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Gate/Gate_low_Part2_AlbedoTransparency.png using Guid(ea208e49d393d384c9dedb6c7fca3f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02104fc9d6b3dbe9bdfb7e6c3000f06') in 0.004960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/City park/Gate/Gate_low_Part2_Normal.png
+  artifactKey: Guid(59cb6954ec9f8534f848c59b91e2f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Gate/Gate_low_Part2_Normal.png using Guid(59cb6954ec9f8534f848c59b91e2f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a9a928b74a75e4aae9a06e87e2c966') in 0.010543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/City park/Gate/Gate_low_Part3_AlbedoTransparency.png
+  artifactKey: Guid(143c39a4eb9f7854dadd66f271aa040b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Gate/Gate_low_Part3_AlbedoTransparency.png using Guid(143c39a4eb9f7854dadd66f271aa040b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20ffce8c1c03c25c9f96e0b870a160c') in 0.006438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/City park/Gate/Gate_low_Part1_Normal.png
+  artifactKey: Guid(01863990dc817b049b8b0701ead6ab04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Gate/Gate_low_Part1_Normal.png using Guid(01863990dc817b049b8b0701ead6ab04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0f49cc9ba3855ce171961528be0c7d') in 0.009467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/City park/Gate/Gate_low_Part2_MetallicSmoothness.png
+  artifactKey: Guid(028501ed96daabc4b838058ef54c9c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Gate/Gate_low_Part2_MetallicSmoothness.png using Guid(028501ed96daabc4b838058ef54c9c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f69e5e4c0dfdb268caa0742a54395a1') in 0.005252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/City park/Gate/Gate_part2.mat
+  artifactKey: Guid(90f41f96704523a47bf7aed70cd3400b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Gate/Gate_part2.mat using Guid(90f41f96704523a47bf7aed70cd3400b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3c07c68dcd06c56340ddc338d9f369') in 0.018027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2.007729 seconds.
+  path: Assets/City park/Garbage_can/Garbage_can.mat
+  artifactKey: Guid(b31295841dd9bb24aafbfa04f9534fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Garbage_can/Garbage_can.mat using Guid(b31295841dd9bb24aafbfa04f9534fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da744e39cdd47c73d5f7a55b7187677') in 0.014435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/City park/Garbage_can/Garbage_can_low.prefab
+  artifactKey: Guid(8dea6d5e83b43b749a276b8609521167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Garbage_can/Garbage_can_low.prefab using Guid(8dea6d5e83b43b749a276b8609521167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc8ca06f1a3924ae8e83143232284dc') in 0.015311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/City park/Garbage_can/Garbage_can_low_Garbage_can_AlbedoTransparency.png
+  artifactKey: Guid(cde65908e9d1aeb44b30bea428f30b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Garbage_can/Garbage_can_low_Garbage_can_AlbedoTransparency.png using Guid(cde65908e9d1aeb44b30bea428f30b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530edba9ae3fac619b5a0c866e7d02c9') in 0.011103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/City park/Garbage_can/Garbage_can_low_Garbage_can_MetallicSmoothness.png
+  artifactKey: Guid(028e1f73ac210a945828ade04e0ef1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Garbage_can/Garbage_can_low_Garbage_can_MetallicSmoothness.png using Guid(028e1f73ac210a945828ade04e0ef1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4cc4efd6b689a8074dce4f068de56cf') in 0.006677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/City park/Garbage_can/Garbage_can_low_Garbage_can_Normal.png
+  artifactKey: Guid(7dc4659500124cb42bcd12754242818c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Garbage_can/Garbage_can_low_Garbage_can_Normal.png using Guid(7dc4659500124cb42bcd12754242818c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49167b3d61a17d6d6c44a386d1b09297') in 0.010723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.862181 seconds.
+  path: Assets/City park/Fence/Fence.mat
+  artifactKey: Guid(0d2d4ab59ecb0344288a9aab7d6ea917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Fence/Fence.mat using Guid(0d2d4ab59ecb0344288a9aab7d6ea917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc2ef3c8015a27b375f9be9abf55b9a') in 0.012701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/City park/Fence/Fence_p2_low.fbx
+  artifactKey: Guid(dabe086469c355343b3bd44b8e7a6ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Fence/Fence_p2_low.fbx using Guid(dabe086469c355343b3bd44b8e7a6ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca8359f2f6f7c15614c64cf402ece55') in 0.019372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/City park/Fence/Fence_p1_low.fbx
+  artifactKey: Guid(95a00cb336698804aa7df9b1bdd3199d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Fence/Fence_p1_low.fbx using Guid(95a00cb336698804aa7df9b1bdd3199d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599d740e7f7175d0d79b162aaa734e9c') in 0.016337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.801276 seconds.
+  path: Assets/City park/Bench/Bench.fbx
+  artifactKey: Guid(842a1f8b6971db14da23a5e5f78e5d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Bench/Bench.fbx using Guid(842a1f8b6971db14da23a5e5f78e5d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a600e09ade127c84287e566a5209359a') in 0.035726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/City park/Bench/Bench_low_Bench_planks_Normal 1.png
+  artifactKey: Guid(a447b7e07fbff2840bb8733265a44f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Bench/Bench_low_Bench_planks_Normal 1.png using Guid(a447b7e07fbff2840bb8733265a44f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57007593fa3a855959987924ee2a039a') in 0.006554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/City park/Bench/Bench_low_Bench_planks_Height.png
+  artifactKey: Guid(1cf0c426678949849b4c0e9012928998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Bench/Bench_low_Bench_planks_Height.png using Guid(1cf0c426678949849b4c0e9012928998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc371139970a94cc634bef548f432646') in 0.005421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/City park/Bench/Bench_low_Bench_planks_MetallicSmoothness.png
+  artifactKey: Guid(ae88560efe3d9bf428431e5199771059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Bench/Bench_low_Bench_planks_MetallicSmoothness.png using Guid(ae88560efe3d9bf428431e5199771059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff48b6c5e86cff073c8b677d12362b1') in 0.007920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/City park/Bench/Bench_low_Bench_base_Normal 1.png
+  artifactKey: Guid(6572635f7c28bc54ba9c211044bbc8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Bench/Bench_low_Bench_base_Normal 1.png using Guid(6572635f7c28bc54ba9c211044bbc8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea73f52aa5b3dde8ef4bc0dfedaa4d82') in 0.006255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/City park/Bench/Bench_low_Bench_base_BaseColor.png
+  artifactKey: Guid(f9a9f7ca30a831549b6558639443d58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Bench/Bench_low_Bench_base_BaseColor.png using Guid(f9a9f7ca30a831549b6558639443d58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5afc4f2dac1b08176a3d5c000999f73') in 0.008397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.512 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.463 seconds
+Domain Reload Profiling: 1978ms
+	BeginReloadAssembly (350ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (42ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (21ms)
+		LoadAssemblies (187ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1465ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (978ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (22ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (687ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 436 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (0.5 MB). Loaded Objects now: 1038.
+Memory consumption went from 164.9 MB to 164.4 MB.
+Total: 2.586541 ms (FindLiveObjects: 0.071791 ms CreateObjectMapping: 0.014500 ms MarkObjects: 2.275166 ms  DeleteObjects: 0.224208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 737.690668 seconds.
+  path: Assets/City park/Ground_textures/DirtGround/IslandDirtGround_v2_baseColor 1.png
+  artifactKey: Guid(323758652b327a14eab3cb3831170d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Ground_textures/DirtGround/IslandDirtGround_v2_baseColor 1.png using Guid(323758652b327a14eab3cb3831170d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad90649fe0b37eee2b11d1d56faf8c2c') in 0.216474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/City park/Ground_textures/DirtGround/NewLayer.terrainlayer
+  artifactKey: Guid(52fb01ffe9796c24d951931d45303ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Ground_textures/DirtGround/NewLayer.terrainlayer using Guid(52fb01ffe9796c24d951931d45303ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fa5e9c33342d075885032ca04b2b09') in 0.041237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.284266 seconds.
+  path: Assets/City park/Lamp/Base.mat
+  artifactKey: Guid(66b4f5ca1ab2a4c439672d0e3a2d114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Lamp/Base.mat using Guid(66b4f5ca1ab2a4c439672d0e3a2d114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4b1ba76fa9a73c8352d70f2b494ed4') in 0.252321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/City park/Lamp/StreetLamp_low_base_Height.png
+  artifactKey: Guid(16fe79db37596954e9a3bb09e994922d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Lamp/StreetLamp_low_base_Height.png using Guid(16fe79db37596954e9a3bb09e994922d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac5c781fec9161d75d338967df44e54') in 0.008135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/City park/Lamp/StreetLamp_low_base_Normal.png
+  artifactKey: Guid(883b1a9c8d131164eb8122ca60f53a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Lamp/StreetLamp_low_base_Normal.png using Guid(883b1a9c8d131164eb8122ca60f53a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a19ad061d9641fb71f7aed1efcf215') in 0.014832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/City park/Lamp/StreetLamp_low_base_Metalic_and_Smoothness.tif
+  artifactKey: Guid(dcbdd7be141b3424895801e7a0107c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Lamp/StreetLamp_low_base_Metalic_and_Smoothness.tif using Guid(dcbdd7be141b3424895801e7a0107c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead9322b7e93af49ef02beb1496a9211') in 0.016801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000850 seconds.
+  path: Assets/City park/Lamp/StreetLamp_low_base_BaseColor.png
+  artifactKey: Guid(5e28e4226fea8fc40a11884aae2acd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Lamp/StreetLamp_low_base_BaseColor.png using Guid(5e28e4226fea8fc40a11884aae2acd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201a5635286ed52f2628422a90f79781') in 0.006806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/City park/Lamp/StreetLamp_low.fbx
+  artifactKey: Guid(61bef9e0bded18c4591f9e3791eada1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Lamp/StreetLamp_low.fbx using Guid(61bef9e0bded18c4591f9e3791eada1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866f7be34193559822197cb7b8a1d1a9') in 0.151072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/City park/Main_obj/Main_obj_low_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(51a3a4fd199808147af9926566682459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Main_obj/Main_obj_low_DefaultMaterial_MetallicSmoothness.png using Guid(51a3a4fd199808147af9926566682459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd880203e092ca572fdd30da4b72f4569') in 0.005457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/City park/Main_obj/Main_obj_low_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(d843eacccb7a1ba47be7414af3a808d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Main_obj/Main_obj_low_DefaultMaterial_AlbedoTransparency.png using Guid(d843eacccb7a1ba47be7414af3a808d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1213c51453c8056b76aa972a9c512b47') in 0.005802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 880.783277 seconds.
+  path: Assets/City park/Mirror_objs/Mirror_obj.fbx
+  artifactKey: Guid(53a9d830c5c3fcd448e3e5380f2ee263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Mirror_objs/Mirror_obj.fbx using Guid(53a9d830c5c3fcd448e3e5380f2ee263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fddb5dc8109e105f6478ab35dbf3571') in 0.079110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/City park/Mirror_objs/Mirror_obj_2_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(4f2063d5f5076ed4296fdb58a47027e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Mirror_objs/Mirror_obj_2_DefaultMaterial_MetallicSmoothness.png using Guid(4f2063d5f5076ed4296fdb58a47027e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df22eb042e27c5d1a93d33dbf72ba49d') in 0.009120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001245 seconds.
+  path: Assets/City park/Mirror_objs/refl.mat
+  artifactKey: Guid(0d627e35414dc2f4781827d9acbfc9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Mirror_objs/refl.mat using Guid(0d627e35414dc2f4781827d9acbfc9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316d188de258465b1421dbc1c04f106c') in 0.042153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.658935 seconds.
+  path: Assets/City park/New Terrain.asset
+  artifactKey: Guid(57682f45bf3c9414c9bf75f601dc5cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/New Terrain.asset using Guid(57682f45bf3c9414c9bf75f601dc5cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7e185b78cf916587305b3eb7996623') in 0.044043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 1.525311 seconds.
+  path: Assets/City park/Sounds/Tree_leafs_on_the_wind.mp3
+  artifactKey: Guid(1b55d8040012f254b8b2108156a21d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Sounds/Tree_leafs_on_the_wind.mp3 using Guid(1b55d8040012f254b8b2108156a21d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc0a05135d69b24f9a02690ec7b8449') in 0.563706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.180364 seconds.
+  path: Assets/City park/Trees/Tree 1_Textures/diffuse.png
+  artifactKey: Guid(46daac376b0e77c4e88cb2f97aaf7165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Tree 1_Textures/diffuse.png using Guid(46daac376b0e77c4e88cb2f97aaf7165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6420199bfc6883d57147e6a62cec0af0') in 0.008846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/City park/Trees/Tree 1_Textures/shadow.png
+  artifactKey: Guid(876f60c9bd93c9447b24b4af3383ebe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Tree 1_Textures/shadow.png using Guid(876f60c9bd93c9447b24b4af3383ebe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb19946669be24b44c2e36942b15bae7') in 0.006371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001023 seconds.
+  path: Assets/City park/Trees/Tree 1_Textures/translucency_gloss.png
+  artifactKey: Guid(ed3b935499123d541b2b0adbe10eb471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Tree 1_Textures/translucency_gloss.png using Guid(ed3b935499123d541b2b0adbe10eb471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7b563daab87418d76a2569390f1385') in 0.011701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.574128 seconds.
+  path: Assets/City park/Trees/Tree 2_Textures/diffuse.png
+  artifactKey: Guid(40da60b08f939e94387041243a29fcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Tree 2_Textures/diffuse.png using Guid(40da60b08f939e94387041243a29fcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a050d4fec559bbf51a7c922e8ebd00') in 0.007299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000731 seconds.
+  path: Assets/City park/Trees/Tree 2_Textures/translucency_gloss.png
+  artifactKey: Guid(dab8118da18496b47a9e9ae89074b4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Tree 2_Textures/translucency_gloss.png using Guid(dab8118da18496b47a9e9ae89074b4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7056076dadf493c3332761c9e473aba7') in 0.004514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.870515 seconds.
+  path: Assets/City park/Trees/Copies/Tree.prefab
+  artifactKey: Guid(98a40e3f72553984cb7089fccfcbd81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Copies/Tree.prefab using Guid(98a40e3f72553984cb7089fccfcbd81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa6116cdd809faa862b485077a3f58d') in 0.084089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/City park/Trees/Copies/Tree 5.prefab
+  artifactKey: Guid(6e38b72e20812ec4c8120ca7fba1cc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Copies/Tree 5.prefab using Guid(6e38b72e20812ec4c8120ca7fba1cc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488b982b05362f7243f55d451d11982f') in 0.052857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/City park/Trees/Copies/Tree 4.prefab
+  artifactKey: Guid(26a460b1b29cddd4996e32c46a2e6af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Copies/Tree 4.prefab using Guid(26a460b1b29cddd4996e32c46a2e6af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d52f26fff8b1af9a854b7d33a457d6') in 0.043350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 188.579313 seconds.
+  path: Assets/City park/Trees/Copies/Tree 1_Textures
+  artifactKey: Guid(8005af8f447da43879c43a4c1c2a8757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Copies/Tree 1_Textures using Guid(8005af8f447da43879c43a4c1c2a8757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36deaa4323d487f95a1ee411ce2e489f') in 0.004049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.130225 seconds.
+  path: Assets/City park/Trees/Copies/Tree 1_Textures/diffuse.png
+  artifactKey: Guid(9b80ee7f41b1e4b9ca75ec0585b5e40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Copies/Tree 1_Textures/diffuse.png using Guid(9b80ee7f41b1e4b9ca75ec0585b5e40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b043fa2cf4fd48c6fc3595f08ee229bc') in 0.028419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/City park/Trees/Copies/Tree 1_Textures/translucency_gloss.png
+  artifactKey: Guid(e29b09d7beac9472796f6af0502353a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Copies/Tree 1_Textures/translucency_gloss.png using Guid(e29b09d7beac9472796f6af0502353a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6569a5ec7f0f2fa9c7935d60ab61619') in 0.006353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/City park/Trees/Copies/Tree 1_Textures/shadow.png
+  artifactKey: Guid(71450adf0eb9c46ec9a93d0c71936cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Copies/Tree 1_Textures/shadow.png using Guid(71450adf0eb9c46ec9a93d0c71936cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc86748305e291ef88e0c51a0cf123f') in 0.011206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 80.465585 seconds.
+  path: Assets/City park/Trees/Branch01.png
+  artifactKey: Guid(fef3161ed5b570041b8609b7c349f182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Branch01.png using Guid(fef3161ed5b570041b8609b7c349f182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eda9a44bd8d4c7bd64b5bae6613640c') in 0.036947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/City park/Trees/Tree 3_Textures/normal_specular.png
+  artifactKey: Guid(3b6ba78bf7e97514a845ffda0a37b558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Tree 3_Textures/normal_specular.png using Guid(3b6ba78bf7e97514a845ffda0a37b558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dea98262a37ae12483a82431031e7ec') in 0.004572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.528870 seconds.
+  path: Assets/City park/Trees/Tree_01.prefab
+  artifactKey: Guid(915324a0e94bae2409c8c1b8caf53e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Tree_01.prefab using Guid(915324a0e94bae2409c8c1b8caf53e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2145fa749bb898f9faa016054df857e0') in 0.117890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/City park/Trees/Tree_03.prefab
+  artifactKey: Guid(37a7ee6a6e57f2b41965574a9899981e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Tree_03.prefab using Guid(37a7ee6a6e57f2b41965574a9899981e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9814249da79279670e81a1eadace790') in 0.086625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/City park/Trees/TreeBark01.mat
+  artifactKey: Guid(f25affbf1482bb341a6f28a87a9a9d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/TreeBark01.mat using Guid(f25affbf1482bb341a6f28a87a9a9d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754a168160cb4b60b461868837ff804e') in 0.391261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.644800 seconds.
+  path: Assets/City park/Trees/Tree_Textures
+  artifactKey: Guid(34700014237d61c40a6a2b5eb7cd6b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Tree_Textures using Guid(34700014237d61c40a6a2b5eb7cd6b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21180897def281d82bbb8485890bd56') in 0.002674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.048745 seconds.
+  path: Assets/City park/Trees/Tree_Textures/diffuse.png
+  artifactKey: Guid(65d5625fe2206af49a09f280a01c19f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Tree_Textures/diffuse.png using Guid(65d5625fe2206af49a09f280a01c19f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29c620edeef86498c8f0280aae4cb4a') in 0.029696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/City park/Trees/Tree_Textures/shadow.png
+  artifactKey: Guid(16b840a3511d52248a6634e78f6f9d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Tree_Textures/shadow.png using Guid(16b840a3511d52248a6634e78f6f9d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ccd6f88798a5969ef3b2a2555e5768') in 0.005435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 909.832807 seconds.
+  path: Assets/City park/Trees/Tree_01.prefab
+  artifactKey: Guid(915324a0e94bae2409c8c1b8caf53e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Tree_01.prefab using Guid(915324a0e94bae2409c8c1b8caf53e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8626180487f45bcbb65167eb9386ef') in 0.150795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/City park/Trees/Tree_05.prefab
+  artifactKey: Guid(7060a40df9d386f46bd97d954de6eb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City park/Trees/Tree_05.prefab using Guid(7060a40df9d386f46bd97d954de6eb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76edddd1a06783ac1562d7ec03419f84') in 0.079622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
