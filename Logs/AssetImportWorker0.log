@@ -11400,3 +11400,163 @@ Received Import Request.
 Start importing Assets/PolygonShops/Prefabs/Buildings/SM_Bld_Wall_Glass_Blank_01.prefab using Guid(cbc619be9a4fa834db6a19f33ccc2af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6f0cbc7986834a66e14c003ee05bc1') in 0.022453 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 81.625036 seconds.
+  path: Assets/Scenes/testEnvironment.unity
+  artifactKey: Guid(5da0a590b884b41eeb23a75d5b4a4228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/testEnvironment.unity using Guid(5da0a590b884b41eeb23a75d5b4a4228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeff13999303ebd27d2d721ece7b6c95') in 0.006855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 76.320384 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Fast Food.fbx
+  artifactKey: Guid(4ddf9dbec6534a14a9612193ee06f4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Fast Food.fbx using Guid(4ddf9dbec6534a14a9612193ee06f4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6810b23a5b28d58e2e983c20714a0add') in 0.097094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Fast_food/Textures/fast_food_packaging_nmap.png
+  artifactKey: Guid(062bb53acb532704f8c55cc86eb51950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fast_food/Textures/fast_food_packaging_nmap.png using Guid(062bb53acb532704f8c55cc86eb51950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc712c8c163eee87c0f342bf964a4571') in 0.030675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Fast_food/Textures/fast_food_packaging.png
+  artifactKey: Guid(92b9682fb3546a34dabc23bcec451140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fast_food/Textures/fast_food_packaging.png using Guid(92b9682fb3546a34dabc23bcec451140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb8bcf7494a926024c647f8415df20a') in 0.018947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Fast_food/Textures/fast_food_packaging_spec.tga
+  artifactKey: Guid(75a838c27d382bb4b97b24c112f70940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fast_food/Textures/fast_food_packaging_spec.tga using Guid(75a838c27d382bb4b97b24c112f70940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9236d7be843b63c743cce12e389af10') in 0.014254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 111.343745 seconds.
+  path: Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Anchovy.fbx
+  artifactKey: Guid(45c0f907321c4de0958a2cd103a6120a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Anchovy.fbx using Guid(45c0f907321c4de0958a2cd103a6120a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a4aea2474a1f57bf9b5b1fd004eb7d') in 0.062169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Cheese Slice B.fbx
+  artifactKey: Guid(cf2ff1e3cdb145f7b8bfac2d5d13e8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Cheese Slice B.fbx using Guid(cf2ff1e3cdb145f7b8bfac2d5d13e8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db61d11c2c72ad84797e6a3c0b35d5d9') in 0.023493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Avocado Slice A.fbx
+  artifactKey: Guid(e3b5bd3ef307499d87ba864a1522344b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Avocado Slice A.fbx using Guid(e3b5bd3ef307499d87ba864a1522344b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1933542ba35b6df8bf809b0e0b9c41') in 0.039987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000795 seconds.
+  path: Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Pepper Red.fbx
+  artifactKey: Guid(7034a7ded81c45da8536db5e2dbfe22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Pepper Red.fbx using Guid(7034a7ded81c45da8536db5e2dbfe22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f443697058b62dd1a98602fd81d0d0') in 0.028419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Cutlet B.fbx
+  artifactKey: Guid(64b7e3c927ea4cb8be05a5c5d3f550a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Cutlet B.fbx using Guid(64b7e3c927ea4cb8be05a5c5d3f550a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8e8af9700affaf09176a9e2249d8fa') in 0.025303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Onion Slice.fbx
+  artifactKey: Guid(daaa830869b147aaaaed2576d12f95df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Onion Slice.fbx using Guid(daaa830869b147aaaaed2576d12f95df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23f7038bc065806f74430925bba7233') in 0.023579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Cheese Slice A.fbx
+  artifactKey: Guid(535f0d4e5c884a5392b2c245dbd4abe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Cheese Slice A.fbx using Guid(535f0d4e5c884a5392b2c245dbd4abe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02dd1baaf20d3a5bd87ab5c50d028825') in 0.016185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Cheese Slice C.fbx
+  artifactKey: Guid(b625260638dd4c8a910fe78d8dad8895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Cheese Slice C.fbx using Guid(b625260638dd4c8a910fe78d8dad8895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac88606b49c4aee7b9d059e6ea0867f') in 0.020829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.001682 seconds.
+  path: Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Egg Boiled.fbx
+  artifactKey: Guid(6bff159330c646febeda1373aa00cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Egg Boiled.fbx using Guid(6bff159330c646febeda1373aa00cd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c2afda7d592bc53b6bdcbaa8ce094f') in 0.022304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Pineapple Slice.fbx
+  artifactKey: Guid(0d0226cf69424061b42ca998834c1c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Pineapple Slice.fbx using Guid(0d0226cf69424061b42ca998834c1c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdd38774980a813b287f48faac45c47') in 0.023201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Cucumber Salt.fbx
+  artifactKey: Guid(62b256e3a961402989252d5464c3bb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Cucumber Salt.fbx using Guid(62b256e3a961402989252d5464c3bb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb393f56d467261cee1fac056eba147') in 0.017259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Onion Slice White.fbx
+  artifactKey: Guid(2ef5f2a08ad7413d81fed4598d18696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Onion Slice White.fbx using Guid(2ef5f2a08ad7413d81fed4598d18696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a98b57a92ab6cc4c3bb94a271cbc45') in 0.020961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Fish Slice.fbx
+  artifactKey: Guid(e45f7783735043cc973f3ab1afb7fd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Fish Slice.fbx using Guid(e45f7783735043cc973f3ab1afb7fd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd428299a592622cd304eb5e3c4921ffa') in 0.020566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Cheese Slice G.fbx
+  artifactKey: Guid(6e007ff469c74a3f8ee2c88dc507e61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Cheese Slice G.fbx using Guid(6e007ff469c74a3f8ee2c88dc507e61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7dd86f3f6c960391e1a1cb66a5e523') in 0.026135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Olive Green.fbx
+  artifactKey: Guid(21c69f7d010f4b5ea7d7f56b283dd72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fast Food Mega Constructor/Hyper Сasual Sandwich/Models/Olive Green.fbx using Guid(21c69f7d010f4b5ea7d7f56b283dd72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be3dc4d577fcadc421c7386824b1e4c') in 0.023996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
