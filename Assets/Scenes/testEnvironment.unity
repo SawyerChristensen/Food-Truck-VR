@@ -8048,7 +8048,7 @@ MonoBehaviour:
   useRecommendedMSAALevel: 1
   _monoscopic: 0
   _sharpenType: 0
-  enableDynamicResolution: 0
+  enableDynamicResolution: 1
   minDynamicResolutionScale: 1
   maxDynamicResolutionScale: 1
   quest2MinDynamicResolutionScale: 0.7
@@ -11414,13 +11414,43 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1007152147719549167, guid: 54d2139f0da551543b0e465e16f92722, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 580463658}
   m_SourcePrefab: {fileID: 100100000, guid: 54d2139f0da551543b0e465e16f92722, type: 3}
 --- !u!4 &580463656 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1007152147720039631, guid: 54d2139f0da551543b0e465e16f92722, type: 3}
   m_PrefabInstance: {fileID: 580463655}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &580463657 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1007152147719549167, guid: 54d2139f0da551543b0e465e16f92722, type: 3}
+  m_PrefabInstance: {fileID: 580463655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &580463658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580463657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _transferOnSecondSelection: 0
+  _addNewPointsToFront: 0
+  _forwardElement: {fileID: 0}
+  _oneGrabTransformer: {fileID: 0}
+  _twoGrabTransformer: {fileID: 0}
+  _targetTransform: {fileID: 0}
+  _maxGrabPoints: -1
+  _rigidbody: {fileID: 0}
+  _kinematicWhileSelected: 1
+  _throwWhenUnselected: 1
 --- !u!1 &581158129
 GameObject:
   m_ObjectHideFlags: 0
@@ -18563,7 +18593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cc5c234723e3a54d8dd09b131117743, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshType: 1
+  _meshType: 5
 --- !u!114 &893773764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18594,7 +18624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2609c54f376cffc4da1ab9401cc1a36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _skeletonType: 1
+  _skeletonType: 5
   _updateRootPose: 0
   _updateRootScale: 1
   _enablePhysicsCapsules: 0
@@ -23559,7 +23589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cc5c234723e3a54d8dd09b131117743, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshType: 0
+  _meshType: 4
 --- !u!114 &1088481510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23590,7 +23620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2609c54f376cffc4da1ab9401cc1a36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _skeletonType: 0
+  _skeletonType: 4
   _updateRootPose: 0
   _updateRootScale: 1
   _enablePhysicsCapsules: 0
